@@ -18,7 +18,6 @@
 
 @import url('./components/container.css');
 
-
 /* ====== LAYOUT ======= */
 
 @import url('./layout/header.css');
@@ -29,7 +28,6 @@
 @import url('./layout/hotel.css');
 @import url('./layout/location.css');
 @import url('./layout/footer.css');
-
 
 /* ====== PAGES ======= */
 
