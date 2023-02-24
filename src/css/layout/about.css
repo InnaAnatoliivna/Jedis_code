@@ -4,7 +4,7 @@
 
 /* =================== ADAPTIVE ===================== */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
     .container {
         max-width: 365px;
     }
@@ -19,7 +19,7 @@
     } */
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .container {
         max-width: 1406px;
     }

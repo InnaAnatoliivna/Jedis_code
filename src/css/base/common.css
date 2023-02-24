@@ -1,6 +1,47 @@
-/* body {
-    font-family: 'Courier New', Courier, monospace;
-} */
+/* --------------------fonts https://www.youtube.com/watch?v=xrOIsGn-DT8*/
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: local(DM Sans);
+    src: url(/src/fonts/fontsDMSans\/DMSans-Regular);
+}
+
+@font-face {
+    font-family: 'GeometriaRegular';
+    src: local(GeometriaRegular);
+    src: url(/src/fonts/GeometriaRegular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: local(DM Sans-Bold);
+    src: url(/src/fonts/fontsDMSans/DMSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'DMSans-BoldItalic';
+    src: local(DM Sans-BoldItalic);
+    src: url(/src/fonts/fontsDMSans/DMSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'DMSans-Italic';
+    src: local(DM Sans-Italic);
+    src: url(/src/fonts/fontsDMSans/DMSans-Italic.ttf);
+}
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: local(DM Sans-Medium);
+    src: url(/src/fonts/fontsDMSans/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'DMSans-MediumItalic';
+    src: local(DM Sans-MediumItalic);
+    src: url(/src/fonts/fontsDMSans/DMSans-MediumItalic.ttf);
+}
+/* --------------------fonts */
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
 
 .btn {
     cursor: pointer;
