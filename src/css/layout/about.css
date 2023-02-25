@@ -12,7 +12,67 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 padding-top: 64px;
 }
 
-.about-title{
+.about-home-list{
+position: relative;
+}
+
+.lobby-image-about{
+}
+
+.bath-image-about{
+margin-top:20px;;
+margin-bottom: 32px; 
+width: 282px;
+   
+}
+
+.reviews{
+    display: flex;
+width: 212px;
+height: 61px;
+position: absolute;
+top: 420px;
+left:123px;
+z-index: 2;
+
+background-color:var(--typical-dark-color);
+box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+border-radius: 6px;}
+
+.maria{
+    margin: 10px 12px 10px 14px;
+
+}
+
+.maria-rating{
+  
+
+}
+
+.name-reviews{
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.0;
+    color: #F7F7F7;
+}
+
+.rating-reviews{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+color: #575757;
+}
+
+.rating-number{
+    color: #F7F7F7;
+}
+.about-home-title{
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -21,10 +81,9 @@ padding-top: 64px;
     text-transform: uppercase;
     color: #484848;
     margin-bottom: 18px;
+    }
     
-        }
-    
-        .subtitle{
+    .about-home-subtitle{
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -41,11 +100,18 @@ padding-top: 64px;
         }
 
         .complex-text-container{
+            
             max-width: 335px;
         }
         .busines-text-container{
+            margin-top: 54px;
+            margin-bottom: 40px;
             max-width: 263px;
         }
+    
+        
+
+
 
 /* =================== ADAPTIVE ===================== */
 
