@@ -81,6 +81,11 @@ https://www.figma.com/file/Q21nmbOP9MlUnHqwToEvkw/Mimino-New?node-id=0%3A1&t=QGL
 
 //FIXME: local fonts https://www.youtube.com/watch?v=xrOIsGn-DT8
 
+
+<!--------------------------------------->
+
+//FIXME: //TODO: 
+Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. Час - 250ms, функція розподілу часу - cubic-bezier(0.4, 0, 0.2, 1).
 <!--------------------------------------->
 
 //FIXME: //TODO: Main Page
