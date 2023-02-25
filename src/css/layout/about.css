@@ -22,10 +22,11 @@ padding-top: 64px;
   }
 
 .about-home-list{
-position: relative;
+
 }
 
 .lobby-image-about{
+    position: relative;
 }
 
 .bath-image-about{
