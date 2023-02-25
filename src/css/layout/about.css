@@ -8,6 +8,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 /* base style before screen 375px */
 
+.container{
+padding-top: 64px;
+}
+
 .about-title{
     font-style: normal;
     font-weight: 400;
@@ -21,8 +25,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         }
     
         .subtitle{
+    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -33,6 +38,13 @@ cubic-bezier(0.4, 0, 0.2, 1). */
             display: flex;
             flex-direction: column;
             gap: 14px;
+        }
+
+        .complex-text-container{
+            max-width: 335px;
+        }
+        .busines-text-container{
+            max-width: 263px;
         }
 
 /* =================== ADAPTIVE ===================== */
@@ -52,6 +64,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     /* .container.mini-container {
         max-width: 734px;
     } */
+    
+            .complex-text-container{
+                max-width: 472px;
+            }
 }
 
 @media screen and (min-width: 1440px) {
