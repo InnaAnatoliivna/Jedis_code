@@ -39,9 +39,12 @@ background-color:var(--typical-dark-color);
 box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
 border-radius: 6px;}
 
-.maria{
+.reviews-item{
     margin: 10px 12px 10px 14px;
 
+}
+.alex{
+    border-radius: 50%;
 }
 
 .maria-rating{
@@ -52,12 +55,12 @@ border-radius: 6px;}
 .name-reviews{
     margin-top: 12px;
     margin-bottom: 7px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'DMSans-Medium-500';
+    /* font-style: normal;
+    font-weight: 500; */
     font-size: 14px;
     line-height: 1.0;
-    color: #F7F7F7;
+    color:var(--typical-suptitle-color);
 }
 
 .rating-reviews{
@@ -109,7 +112,23 @@ color: #575757;
             max-width: 263px;
         }
     
-        
+        .buisnes-image-list{
+            position: relative;
+        }
+
+        .reviews-alex{
+            display: flex;
+            width: 212px;
+            height: 61px;
+            position: absolute;
+            top: 272px;
+            left:0px;
+            z-index: 2;
+            
+            background-color:var(--typical-dark-color);
+            box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+            border-radius: 6px;}
+
 
 
 
