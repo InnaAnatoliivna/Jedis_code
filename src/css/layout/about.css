@@ -6,9 +6,34 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
+/* base style before screen 375px */
 
-
-
+.about-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 18px;
+    
+        }
+    
+        .subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+        }
+    
+        .sub-container{
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
 
 /* =================== ADAPTIVE ===================== */
 
@@ -16,6 +41,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     .container {
         max-width: 365px;
     }
+
+    
 }
 
 @media screen and (min-width: 768px) {
