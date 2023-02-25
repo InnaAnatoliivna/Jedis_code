@@ -4,7 +4,96 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
+.header {
+}
+.container {
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 32px;
+    margin-top: 27px;
+    margin-bottom: 33px;
+    margin-left: 32px;
+}
+.list {
+}
+.header-item {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #121212;
+    font-style: normal;
+}
+.header-link {
+}
+.link {
+}
+.current {
+    background: #121212;
+    position: relative;
+}
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: #121212;
+}
+.header-logo {
 
+}
+.logo {
+}
+.logotype {
+}
+.header-logo-title {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #121212;
+    font-style: normal;
+}
+.header-logo-subtitle {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #121212;
+    font-style: normal;
+}
+.header-social {
+}
+.header-soc-list {
+    display: flex;
+    gap: 16px;
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
+.header-soc-icon {
+}
 
 
 
