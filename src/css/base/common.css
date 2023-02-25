@@ -8,44 +8,44 @@
 }
 
 @font-face {
-    font-family: 'GeometriaRegular';
-    font-weight: normal;
+    font-family: 'GeometriaRegular', sans-serif;
+    font-weight: 400;
     font-style: normal;
     src: local(GeometriaRegular);
     src: url(/src/fonts/GeometriaRegular.ttf);
 }
 
 @font-face {
-    font-family: 'DMSans-Bold';
-    font-weight: normal;
+    font-family: 'DMSans-Bold', sans-serif;
+    font-weight: 700;
     font-style: normal;
     src: local(DM Sans-Bold);
     src: url(/src/fonts/fontsDMSans/DMSans-Bold.ttf);
 }
 @font-face {
-    font-family: 'DMSans-BoldItalic';
-    font-weight: normal;
+    font-family: 'DMSans-BoldItalic', sans-serif;
+    font-weight: 700;
     font-style: italic;
     src: local(DM Sans-BoldItalic);
     src: url(/src/fonts/fontsDMSans/DMSans-BoldItalic.ttf);
 }
 @font-face {
-    font-family: 'DMSans-Italic';
+    font-family: 'DMSans-Italic', sans-serif;
     font-weight: normal;
     font-style: italic;
     src: local(DM Sans-Italic);
     src: url(/src/fonts/fontsDMSans/DMSans-Italic.ttf);
 }
 @font-face {
-    font-family: 'DMSans-Medium';
-    font-weight: normal;
+    font-family: 'DMSans-Medium', sans-serif;
+    font-weight: 500;
     font-style: normal;
     src: local(DM Sans-Medium);
     src: url(/src/fonts/fontsDMSans/DMSans-Medium.ttf);
 }
 @font-face {
-    font-family: 'DMSans-MediumItalic';
-    font-weight: normal;
+    font-family: 'DMSans-MediumItalic', sans-serif;
+    font-weight: 400;
     font-style: italic;
     src: local(DM Sans-MediumItalic);
     src: url(/src/fonts/fontsDMSans/DMSans-MediumItalic.ttf);
