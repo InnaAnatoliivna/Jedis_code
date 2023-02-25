@@ -1,4 +1,5 @@
 /* hotel */
+=======
 /* Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. 
 Час - 250ms, 
 функція розподілу часу - 
@@ -9,25 +10,42 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-    .container {
-        max-width: 365px;
-    }
+  .container {
+    max-width: 365px;
+  }
+
+  .section-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+  }
+
+  .hotel-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+    text-transform: uppercase;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 734px;
-    }
-    /* .container.mini-container {
+  .container {
+    max-width: 734px;
+  }
+  /* .container.mini-container {
         max-width: 734px;
     } */
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1406px;
-    }
-    /* .container.mini-container {
+  .container {
+    max-width: 1406px;
+  }
+  /* .container.mini-container {
         max-width: 1158px;
     } */
 }
