@@ -1,27 +1,64 @@
 <!--------------------------------------->
 
 //FIXME:materials for the project
+
 https://docs.google.com/spreadsheets/d/1VTNJyWBM4p0XcaKx_0wo73d1PWw-xbrKfygoR6ajIog/edit#gid=0
 
 <!--------------------------------------->
 
-//FIXME: Структура проєкта. //TODO: Main Page 1.Header(загальний для всіх
-сторінок) 2.Hero Nikita Shepil 3.About a complex -> Volodymyr Bosenko
-4.Restaurant’s details -> Alehandro Olexander597 5.Welcome to a complex -> Denis
-Лупкін+all images/svg 6.Hotel’s details -> Den Industries 7.Location & contacts
--> Den Industries 8.Footer(загальний для всіх сторінок) -> ElenaFarina
+//FIXME: Структура проєкта. 
+
+//TODO: 
+Main Page 
+
+1.Header(загальний для всіх
+сторінок) 
+
+2.Hero Nikita Shepil 
+
+3.About a complex -> Volodymyr Bosenko
+
+4.Restaurant’s details -> Alehandro Olexander597 
+
+5.Welcome to a complex -> Denis
+Лупкін+all images/svg 
+
+6.Hotel’s details -> Den Industries 
+
+7.Location & contacts
+-> Den Industries 
+
+8.Footer(загальний для всіх сторінок) -> ElenaFarina
+
+
 
 //TODO: Restaurant Page
 
-1.Hero -> Nikita Shepil 2.About a kitchen -> maxineaird (Tetyana Shvayka)
+1.Hero -> Nikita Shepil 
+
+2.About a kitchen -> maxineaird (Tetyana Shvayka)
+
 3.Restaurant menu -> Alehandro Olexander597
+
+
 
 //TODO: Hotel Page
 
-1.Hero -> Nikita 2.Double Luxury Room -> Taras DemoUser79 3.Triple Room
-Four-seater Room //TODO: Room Page
+1.Hero -> Nikita 
 
-1.Hero -> Nikita Shepil 2.Amenities (general) -> Nina Lim
+2.Double Luxury Room -> Taras DemoUser79 
+
+3.Triple Room -> Mykhailo Friziuk
+
+4.Four-seater Room //
+
+
+
+TODO: Room Page
+
+1.Hero -> Nikita Shepil 
+
+2.Amenities (general) -> Nina Lim
 
 Book a Room Modal window Book a Table Modal window Prices per Room Modal window
 
@@ -45,6 +82,11 @@ https://www.figma.com/file/Q21nmbOP9MlUnHqwToEvkw/Mimino-New?node-id=0%3A1&t=QGL
 
 //FIXME: local fonts https://www.youtube.com/watch?v=xrOIsGn-DT8
 
+
+<!--------------------------------------->
+
+//FIXME: //TODO: 
+Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. Час - 250ms, функція розподілу часу - cubic-bezier(0.4, 0, 0.2, 1).
 <!--------------------------------------->
 
 //FIXME: //TODO: Main Page
