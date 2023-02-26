@@ -5,9 +5,51 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
+.amenities {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.container {
+}
 
+.amenities-container{
+    text-align: start;
+}
 
+.amenities-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px;
+}
+
+.amenities-item {
+}
+
+.amenities-subtitle {
+}
+
+.general-amenities-list {
+}
+
+.amenities-text {
+}
+
+.bathroom-amenities-list {
+}
+
+.bedroom-amenities-list {
+}
+
+.kitchen-amenities-list {
+}
+
+.media-amenities-list {
+}
+
+.amenities-btn {
+}
 
 
 
