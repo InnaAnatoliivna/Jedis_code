@@ -33,8 +33,7 @@ padding-bottom: 64px ;
 .bath-image-about{
 margin-top:20px;;
 margin-bottom: 32px; 
-width: 282px;
-   
+max-width: 282px;
 }
 
 .reviews{
@@ -112,7 +111,7 @@ color: #575757;
             display: flex;
             flex-direction: column;
             gap: 14px;
-            margin-bottom: 64px;
+            padding-bottom: 64px;
         }
 
         .complex-text-container{
@@ -157,15 +156,70 @@ color: #575757;
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 734px;
+    max-width: 734px;
     }
     /* .container.mini-container {
         max-width: 734px;
     } */
+
+    .about-hotel{
+        padding-top: 80px;
+        padding-bottom: 80px ;
+        }
+
+    .about-home-list{
+        position: relative;
+    }
+    .lobby-image-about{
+    max-width: 482px;
+    }
+
+    .bath-image-about{
+    max-width: 404px;
+    position: absolute;
+    top: 209px;
+    left: 300px;
+    }
+
+    .reviews{
+    top: 176px;
+    left:370px;
+    }
     
-            .complex-text-container{
-                max-width: 472px;
-            }
+    .complex-text-container{
+    max-width: 472px;
+    margin-top: 32px;
+    }
+
+    .sub-container{
+        padding-bottom: 80px;
+    }
+
+    .buisnes-image-list{
+     margin-bottom: 40px;
+    }
+
+    .buisnes-bokal-image{
+    margin-left: auto;
+    max-width: 530px;
+    }
+    .reviews-alex{
+    top: 303px;
+    left: auto;
+    right: 425px;
+    }
+
+
+    .buisnes-hotel-list{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 32px;
+    }
+
+    .buisnes-resoran-image{
+    max-width: 266px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
