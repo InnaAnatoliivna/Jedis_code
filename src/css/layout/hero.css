@@ -34,10 +34,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .hero {
- 
-    background-color: var(--typical-darc-color);
-    
-    
+    background-color: var(--dark-background-color);
   }
   
   .hero-container{
@@ -47,7 +44,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     position: relative;
   }
   
-  .hero-titel {
+  .hero-title {
     padding-top: 507px;
     width: 283px;
     font-size: 80px;
