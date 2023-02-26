@@ -1,34 +1,51 @@
 <header class="header">
     <div class="container header-container">
-        <div class="header-navigation">            
-            <ul class="header-list list">
-                <li class="header-item"><a href="../index.html" class="header-link link ">Home</a></li>
-                <li class="header-item"><a href="../page-hotel.html" class="header-link link current">Hotel</a></li>
-                <li class="header-item"><a href="../page-restaurant.html" class="header-link link">Restaurant</a></li>
-                <li class="header-item"><a href="../page-room.html" class="header-link link">Room</a></li>
+        <nav>
+            <ul class="navigation">
+                <li class="item"><a class="nav-head-name selected" href="../index.html">Home</a></li>
+                <li class="item"><a class="nav-head-name" href="../page-hotel.html">Hotel</a></li>
+                <li class="item"><a class="nav-head-name" href="../page-restaurant.html">Restaurant</a></li>
             </ul>
+            <button type="button" class="burger-btn" data-menu-open><svg class="burger-menu"><use href="./img/sprite-nikita.svg#icon-burger-menu"></use></svg></button >
+        </nav>
+        <div class="hero-logo">
+            <a class="logo-box" href="">
+                <p class="up-logo">Mimino</p>
+                <p class="down-logo">restaurant-hotel complex</p>
+            </a>
         </div>
-        <div class="header-container">
-            <a class="logo link logotype" href="../page-home.html" target="_blank"></a>
-            <p class="header-logo-title">MIMINO<span class="header-logo-subtitle">RESTAURANT-HOTEL COMPLEX</span></p>            
+        <div class="flex-empty"></div>
+        <ul class="sm-list">
+            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
+        </ul>
+    </div >
+    <div class="mobile-menu is-hidden" data-menu>
+        <div class="outline">
+            <div class="container">
+                <div class="menu-header" >
+                    <button type="button" class="x-close-btn" data-menu-close><svg class="x-close"><use href="../img/sprite-nikita.svg#icon-x-close"></use></svg></button>
+                <div class="hero-logo">
+                    <a class="logo-box" href="">
+                        <p class="up-logo">Mimino</p>
+                        <p class="down-logo">restaurant-hotel complex</p>
+                    </a>
+                </div>
+                <div class="flex-empty"></div>
+                </div>
+            </div>
         </div>
-        <div class="header-social">
-            <ul class="header-soc-list list">
-                <li class="header-soc-item">
-                    <a href="" class="header-soc-link link">
-                    <svg class="header-soc-icon" width="24" height="24">
-                    <use href="./.svg#icon-instagram"></use>
-                    </svg></a></li>
-                <li class="header-soc-item">
-                    <a href="" class="header-soc-link link">
-                    <svg class="header-soc-icon" width="24" height="24">
-                    <use href="./.svg#icon-twitter"></use>
-                    </svg></a></li>
-                <li class="header-soc-item">
-                    <a href="" class="header-soc-link link">
-                    <svg class="header-soc-icon" width="24" height="24">
-                    <use href="./.svg#icon-facebook"></use>
-                    </svg></a></li>                    
+        <div class="container bgc-menu-color">
+            <ul class="mobile-menu-nav">
+                <li class="item"><a class="nav-name" href="../index.html">Home</a></li>
+                <li class="item"><a class="nav-name" href="../page-hotel.html">Hotel</a></li>
+                <li class="item"><a class="nav-name" href="../page-restaurant.html">Restaurant</a></li>
+            </ul>
+            <ul class="sm-mob-menu-list">
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
             </ul>
         </div>
     </div>
