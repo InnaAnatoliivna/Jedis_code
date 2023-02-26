@@ -65,7 +65,7 @@ border-radius: 6px;}
 .name-reviews{
     margin-top: 12px;
     margin-bottom: 7px;
-    font-family: 'DMSans-Medium-500';
+    font-family:'DMSans-Medium-500', sans-serif;
     /* font-style: normal;
     font-weight: 500; */
     font-size: 14px;
@@ -74,20 +74,17 @@ border-radius: 6px;}
 }
 
 .rating-reviews{
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
+    font-family: 'DM Sans-400', sans-serif;
 font-size: 12px;
 line-height: 1.33;
 color: #575757;
 }
 
 .rating-number{
-    color: #F7F7F7;
+    color: var(--typical-light-color);
 }
 .about-home-title{
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'DM Sans-400', sans-serif;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.18em;
@@ -97,13 +94,12 @@ color: #575757;
     }
     
     .about-home-subtitle{
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'DMSans-Medium-500', sans-serif;
     font-size: 13px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #121212;
+    color:var(--typical-dark-color);
 
         }
     
@@ -165,6 +161,13 @@ color: #575757;
     .about-hotel{
         padding-top: 80px;
         padding-bottom: 80px ;
+        }
+
+            
+    .about-home-subtitle{
+            font-family: 'DMSans-Medium-500', sans-serif;
+            font-size: 18px;
+            line-height: 1.33;
         }
 
     .about-home-list{
