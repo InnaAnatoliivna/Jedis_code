@@ -6,6 +6,42 @@
 cubic-bezier(0.4, 0, 0.2, 1). */
 
 
+.general-amenities {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container {
+}
+.general-amenities-container{
+    text-align: start;
+}
+.general-amenities-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.general-amenities-item {
+}
+.general-amenities-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-subtitle-color);
+    margin-bottom: 28px;
+}
+.amenities-list {
+    margin-bottom: 40px;
+}
+.amenities-text {
+}
+.amenities-btn {
+}
+
+
+
+
+
 
 
 
