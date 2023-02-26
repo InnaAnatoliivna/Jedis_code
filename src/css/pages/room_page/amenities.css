@@ -5,7 +5,7 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
-.amenities {
+.general-amenities {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -13,39 +13,33 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .container {
 }
 
-.amenities-container{
+.general-amenities-container{
     text-align: start;
 }
 
-.amenities-list {
+.general-amenities-list {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 72px;
 }
 
-.amenities-item {
+.general-amenities-item {
 }
 
-.amenities-subtitle {
+.general-amenities-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-subtitle-color);
+    margin-bottom: 28px;
 }
 
-.general-amenities-list {
+.amenities-list {
+    margin-bottom: 40px;
 }
 
 .amenities-text {
-}
-
-.bathroom-amenities-list {
-}
-
-.bedroom-amenities-list {
-}
-
-.kitchen-amenities-list {
-}
-
-.media-amenities-list {
 }
 
 .amenities-btn {
