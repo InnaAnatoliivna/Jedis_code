@@ -231,8 +231,14 @@ color: #575757;
         max-width: 1158px;
     } */
 
+    .about-hotel{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
    .about-hotel-container{
     display: flex;
+    padding-bottom: 100px;
    }
 
    .box-pictures-about{
@@ -250,4 +256,28 @@ color: #575757;
         margin-top: 199px;
         margin-left: 107px;
         }
+
+    .about-hotel-container-mini{
+    display: flex;
+    flex-direction: row-reverse;
+    }
+
+    .buisnes-image-list{
+        margin-bottom: 0;
+       }
+
+    .buisnes-hotel-list{
+        gap: 54px;
+    }
+
+    .busines-text-container{
+        margin-top: 0;
+        margin-bottom: 40px;
+        max-width: 263px;
+    }
+
+    .buisnes-hotel-list{
+    margin-top: 127px;
+    margin-right: 82px;
+    }
 }
