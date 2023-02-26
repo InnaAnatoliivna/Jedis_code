@@ -1,15 +1,18 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --typical-light-color:  #F7F7F7;
+  --typical-dark-color: #121212;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --typiical-fw: 400;
+  --typical-fw-title: 700;
+  --typical-fs-text: 18px;
+  --typical-fs-title: 40px;
 
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
+  --typical-suptitle-color: #F7F7F7;
+
+  --dark-background-color: #121212;
+  --light-background-color: #F7F7F7;
+
+--dark-border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+--light-border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+
 }

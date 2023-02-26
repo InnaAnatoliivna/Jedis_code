@@ -7,6 +7,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
+
+
+
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
@@ -32,3 +35,265 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         max-width: 1158px;
     } */
 }
+
+
+.header {
+    
+    border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    
+  }
+  
+  .header-container {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .navigation {
+    display: none;
+  }
+
+.selected::after{
+    content: '';
+    width: 4px;
+height: 4px;
+display: block;
+border-radius: 50%;
+background: #F7F7F7;
+margin-left: 19.5px;
+margin-top: 2px;
+}
+
+.navigation .item{
+    padding-right: 32px;
+}
+
+.navigation .item:last-child{
+    padding-right: 0;
+}
+
+.nav-head-name{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+color: var(--typical-light-color);
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+}
+
+  .burger-btn {
+    border: none;
+    background-color: transparent;
+  }
+  .x-close-btn{
+    border: none;
+    background-color: transparent;
+  }
+  .x-close{
+    width: 32px;
+    height: 32px;
+  }
+  
+  .burger-menu {
+    width: 32px;
+    height: 32px;
+  }
+  .hero-logo {
+   
+    display: flex;
+    
+  }
+  
+  .logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .up-logo {
+    font-weight: 500;
+  font-size: 14px;
+  line-height: 1.57;
+  color: var(--typical-light-color);
+  text-decoration: none;
+  align-items: center;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  }
+
+.flex-empty{
+    width: 32px;
+    height: 32px;
+    color: transparent;
+}
+
+  .down-logo {
+    font-size: 6px;
+  line-height: 1.33;
+  color: rgba(216, 215, 215, 1);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  
+  
+  }
+  .sm-list {
+    display: none;
+  }
+
+.sm-list .item{
+    margin-right: 14px;
+}
+
+.sm-list .item:last-child{
+margin-right: 0;
+}
+
+  .sm-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  @media screen and (min-width:768px) {
+
+    .flex-empty{
+        display: none;
+    }
+
+    .sm-list{
+        display: flex;
+    }
+    
+    .up-logo{
+        font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+    }
+
+    .down-logo{
+        font-weight: 400;
+font-size: 8px;
+line-height: 1.25;
+
+    }
+
+    .header-container{
+        justify-content: start;
+    }
+    .logo-box{
+        margin-left: 246px;
+    }
+    
+    .sm-list{
+        margin-left: auto;
+    }
+
+  }
+
+@media screen and (min-width:1440px) {
+
+    .burger-btn{
+        display: none;
+    }
+    .sm-list .item{
+        margin-right: 16px;
+    }
+    
+.navigation{
+    display: flex;
+
+}
+
+.logo-box{
+    margin-left: 370px;
+}
+
+.sm-list{
+    margin-left: auto;
+}
+
+}
+
+  /* Mobile menu */
+  
+  .mobile-menu {
+    background-color: var(--typical-darc-color);
+    position:absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+  }
+.bgc-menu-color{
+  background-color: var(--typical-darc-color);
+}
+
+  .menu-header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+    
+  }
+
+  .outline{
+    border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  }
+ 
+  
+  .mobile-menu-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 128px;
+  }
+ 
+  .nav-name {
+    font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--typical-light-color);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  }
+
+  .mobile-menu-nav .item{
+    padding-bottom: 32px;
+  }
+
+  .mobile-menu-nav .item:last-child{
+    padding-bottom: 0;
+  }
+
+  .sm-mob-menu-list{
+    display: flex;
+    padding-bottom: 24px;
+    margin-top: auto;
+  }
+
+  .sm-mob-menu-list .item{
+    margin-left:14px ;
+    padding-top: 100px;
+  }
+  .sm-mob-menu-list .item:first-child{
+    margin-left: 0;
+  }
+
+  .mobile-menu-sm-icon{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /* test */
+
+  
