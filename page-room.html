@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>Mimino Rooms</title>
-    <script type="module" crossorigin src="/Jedis_code/assets/mobile-menu-a5cbf643.js"></script>
-    <link rel="stylesheet" href="/Jedis_code/assets/mobile-menu-13f9fcad.css">
+    <script type="module" crossorigin src="/Jedis_code/assets/mobile-menu-793009b0.js"></script>
+    <link rel="stylesheet" href="/Jedis_code/assets/mobile-menu-30532664.css">
   </head>
   <body>
     <section>
       <!-- <a href="./index.html">Go to home</a>
       <h1>Welcome to page 2</h1> -->
 
-      section -->
-<header class="header">
+      <header class="header">
     <div class="container header-container">
         <nav>
             <ul class="navigation">
@@ -24,7 +23,7 @@
                 <li class="item"><a class="nav-head-name" href="../page-hotel.html">Hotel</a></li>
                 <li class="item"><a class="nav-head-name" href="../page-restaurant.html">Restaurant</a></li>
             </ul>
-            <button type="button"   class="burger-btn js-open-menu"><svg class="burger-menu"><use href="/Jedis_code/assets/sprite-nikita-503c256b.svg#icon-burger-menu"></use></svg></button >
+            <button type="button" class="burger-btn" data-menu-open><svg class="burger-menu"><use href="/Jedis_code/assets/sprite-nikita-503c256b.svg#icon-burger-menu"></use></svg></button >
         </nav>
         <div class="hero-logo">
             <a class="logo-box" href="">
@@ -39,34 +38,34 @@
             <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
         </ul>
     </div >
-    <div class="mobile-menu js-menu-container">
-            <div class="outline">
-                <div class="container">
-                    <div class="menu-header" >
-                        <button type="button" class="x-close-btn js-close-menu"><svg class="x-close"><use href="../img/sprite-nikita.svg#icon-x-close"></use></svg></button>
-                    <div class="hero-logo">
-                        <a class="logo-box" href="">
-                            <p class="up-logo">Mimino</p>
-                            <p class="down-logo">restaurant-hotel complex</p>
-                        </a>
-                    </div>
-                    <div class="flex-empty"></div>
-                    </div>
+    <div class="mobile-menu is-hidden" data-menu>
+        <div class="outline">
+            <div class="container">
+                <div class="menu-header" >
+                    <button type="button" class="x-close-btn" data-menu-close><svg class="x-close"><use href="../img/sprite-nikita.svg#icon-x-close"></use></svg></button>
+                <div class="hero-logo">
+                    <a class="logo-box" href="">
+                        <p class="up-logo">Mimino</p>
+                        <p class="down-logo">restaurant-hotel complex</p>
+                    </a>
+                </div>
+                <div class="flex-empty"></div>
                 </div>
             </div>
-            <div class="container bgc-menu-color">
-                <ul class="mobile-menu-nav">
-                    <li class="item"><a class="nav-name" href="">Home</a></li>
-                    <li class="item"><a class="nav-name" href="">Hotel</a></li>
-                    <li class="item"><a class="nav-name" href="">Restaurant</a></li>
-                </ul>
-                <ul class="sm-mob-menu-list">
-                    <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
-                    <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
-                    <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
-                </ul>
-            </div>
-</div>
+        </div>
+        <div class="container bgc-menu-color">
+            <ul class="mobile-menu-nav">
+                <li class="item"><a class="nav-name" href="../index.html">Home</a></li>
+                <li class="item"><a class="nav-name" href="../page-hotel.html">Hotel</a></li>
+                <li class="item"><a class="nav-name" href="../page-restaurant.html">Restaurant</a></li>
+            </ul>
+            <ul class="sm-mob-menu-list">
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
+            </ul>
+        </div>
+    </div>
 </header>
     <main>
       <!-- section -->
