@@ -179,6 +179,7 @@ color: #575757;
     position: absolute;
     top: 209px;
     left: 300px;
+    margin-top: 0;
     }
 
     .reviews{
@@ -229,4 +230,24 @@ color: #575757;
     /* .container.mini-container {
         max-width: 1158px;
     } */
+
+   .about-hotel-container{
+    display: flex;
+   }
+
+   .box-pictures-about{
+    width: 739px;
+   }
+
+    .bath-image-about{
+        max-width: 439px;
+        position: absolute;
+        top: 209px;
+        left: 300px;
+    }
+    .complex-text-container{
+        max-width: 472px;
+        margin-top: 199px;
+        margin-left: 107px;
+        }
 }
