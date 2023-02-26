@@ -13,6 +13,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     margin-bottom: 32px;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 19px;
 }
 
 .double-lux-title {
@@ -50,6 +52,28 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     color: #121212;
 }
 
+.double-lux-btn-link {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #121212;
+    background-color: #F7F7F7;
+    margin-right: 12px;
+    text-transform: uppercase;
+    width: 128px;
+    height: 34px;
+    padding: 8px 10px;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .double-lux-btn {
     font-weight: 400px;
     font-size: 14px;
@@ -57,19 +81,25 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
+    background-color: #F7F7F7;
     padding: 8px 18px;
     gap: 10px;
-    max-width: 128px;
+    width: 128px;
     height: 34px;
     border: 0.8px solid #121212;
     border-radius: 32px;
+    
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .double-lux-btn:hover,
-.double-lux-btn:focus {
+.double-lux-btn:focus,
+.double-lux-btn-link:hover,
+.double-lux-btn-link:focus {
     background-color: #121212;
     color: #F6F6F6;
-    padding-bottom: 100px;
 }
 
 .double-lux-list {
@@ -150,9 +180,13 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         max-width: 734px;
     }
 
-    /* .item-bathroom {
+    .double-lux {
+        padding-bottom: 80px;
+    }
+
+    .item-bathroom {
         order: -1;
-    } */
+    }
 
     /* .container.mini-container {
         max-width: 734px;
@@ -162,6 +196,18 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1406px;
+    }
+
+    .double-lux {
+        padding-bottom: 100px;
+    }
+
+    .item-bedroom {
+        order: 1;
+    }
+    
+    .item-bathroom {
+        order: 2;
     }
     /* .container.mini-container {
         max-width: 1158px;
