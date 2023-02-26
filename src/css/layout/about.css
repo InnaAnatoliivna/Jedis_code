@@ -8,8 +8,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 /* base style before screen 375px */
 
-.container{
+.about-hotel{
 padding-top: 64px;
+padding-bottom: 64px ;
 }
 
 
@@ -104,12 +105,14 @@ color: #575757;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #121212;
+
         }
     
         .sub-container{
             display: flex;
             flex-direction: column;
             gap: 14px;
+            margin-bottom: 64px;
         }
 
         .complex-text-container{
