@@ -8,9 +8,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 /* base style before screen 375px */
 
-.container{
-padding-top: 64px;
-}
+
 
 .about-title{
     font-style: normal;

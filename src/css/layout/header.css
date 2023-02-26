@@ -168,6 +168,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
   .header-container {
     justify-content: start;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   .logo-box {
     margin-left: 246px;
