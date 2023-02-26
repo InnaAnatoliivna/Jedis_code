@@ -105,7 +105,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .hero-button:hover, .hero-button:focus{
     background-color: var(--typical-light-color);
     color: var(--typical-darc-color);
-    border: 0.8px solid var(--typical-darc-color);
+    
   }
   
   .hero-button.first{
@@ -113,7 +113,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   }
 
   @media screen and (min-width: 768px) {
-    .hero-titel{
+
+    .hero-title{
         width: 530px;
         font-weight: 400;
 font-size: 150px;
@@ -158,7 +159,7 @@ padding: 8px 24px;
     position: relative;
     
     }
-    .hero-titel{
+    .hero-title{
         width: 530px;
         font-weight: 400;
 font-size: 180px;
