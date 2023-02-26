@@ -37,6 +37,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     background-color: var(--dark-background-color);
   }
   
+  /* .index .hero {
+    background-color: var(--light-background-color);
+  } */
+
   .hero-container{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%), url(../../img/bg-img-mobile.png);
     background-repeat: no-repeat;
@@ -56,8 +60,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
-  
   }
+  
   .hero-text-list {
     padding-top: 124px;
   }
