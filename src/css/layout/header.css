@@ -30,6 +30,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     } */
 }
 
+/* ---=-styles for next pages-=--- */
+.index header {
+  background-color: #fff;
+}
+/*------------------------------*/
 .header {
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
   position: absolute;
@@ -58,7 +63,28 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   margin-left: 19.5px;
   margin-top: 2px;
 }
-
+/* ---=-styles for next pages-=--- */
+.index-hotel .second-selected::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  display: block;
+  border-radius: 50%;
+  background: var(--dark-background-color);
+  margin-left: 19.5px;
+  margin-top: 2px;
+}
+.index-restaurant .three-selected::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  display: block;
+  border-radius: 50%;
+  background: var(--dark-background-color);
+  margin-left: 48px;
+  margin-top: 2px;
+}
+/*-------------*/
 .navigation .item {
   padding-right: 32px;
 }
@@ -75,6 +101,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+/* ---=-styles for next pages-=--- */
+.index .nav-head-name {
+  color: var(--typical-dark-color);
+}
+/*------------------------------*/
 
 .burger-btn {
   border: none;
@@ -114,6 +145,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   text-transform: uppercase;
   letter-spacing: 0.18em;
 }
+/* ---=-styles for next pages-=--- */
+.index .up-logo {
+  color: var(--typical-dark-color);
+}
+/*------------------------------*/
 
 .flex-empty {
   width: 32px;
@@ -128,6 +164,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
+/* ---=-styles for next pages-=--- */
+.index .down-logo {
+  color: var(--typical-dark-color);
+}
+/*------------------------------*/
+
 .sm-list {
   display: none;
 }
@@ -143,7 +185,14 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .sm-icon {
   width: 24px;
   height: 24px;
+
+  stroke: var(--light-background-color);
 }
+/* ---=-styles for next pages-=--- */
+.index .sm-icon {
+  stroke: var(--dark-background-color);
+}
+/*------------------------------*/
 
 @media screen and (min-width: 768px) {
   .flex-empty {
