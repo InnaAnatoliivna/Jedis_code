@@ -6,7 +6,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 .double-lux {
-    padding-bottom: 64px;
+    padding-bottom: 100px;
 }
 
 .double-lux-list {
@@ -63,6 +63,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     height: 34px;
     border: 0.8px solid #121212;
     border-radius: 32px;
+    background-color: transparent;
 }
 
 .double-lux-btn:hover,
@@ -76,8 +77,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 @media screen and (min-width: 375px) {
     .container {
         max-width: 365px;
-        padding: 0 20px;
-        margin: 0 auto;
     }
 }
 
@@ -86,9 +85,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         max-width: 734px;
     }
 
-    .item-bathroom {
+    /* .item-bathroom {
         order: -1;
-    }
+    } */
 
     /* .container.mini-container {
         max-width: 734px;
