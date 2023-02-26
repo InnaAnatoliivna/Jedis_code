@@ -23,18 +23,20 @@ padding-bottom: 64px ;
   }
 
 .about-home-list{
-
-}
-
-.lobby-image-about{
     position: relative;
+
 }
+
+/* .lobby-image-about{
+    position: relative;
+} */
 
 .bath-image-about{
 margin-top:20px;;
 margin-bottom: 32px; 
 max-width: 282px;
 }
+
 
 .reviews{
     display: flex;
@@ -55,11 +57,6 @@ border-radius: 6px;}
 }
 .alex{
     border-radius: 50%;
-}
-
-.maria-rating{
-  
-
 }
 
 .name-reviews{
