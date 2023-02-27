@@ -8,6 +8,6 @@
   --typical-suptitle-color: #F7F7F7;
   --dark-background-color: #121212;
   --light-background-color: #F7F7F7;
---dark-border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
---light-border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  --dark-border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+  --light-border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
