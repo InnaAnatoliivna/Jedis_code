@@ -11,6 +11,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .hotel-title {
+  font-family: 'DMSans-Medium-500', sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 1;
@@ -20,6 +21,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .hotel-description {
+  font-family: 'DMSans-Medium-500', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -42,6 +44,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .hotel-btn {
   display: block;
+  font-family: 'DM Sans-400', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -100,6 +103,18 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     height: 40px;
     padding: 8px 24px;
   }
+
+  .hotel-images-tab {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .hotel-images-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
   /* .container.mini-container {
         max-width: 734px;
     } */
@@ -124,7 +139,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
   }
 
   .hotel-btn {
@@ -135,6 +150,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .hotel-buttons-mob {
     display: none;
   }
+
+  .hotel-images-tab {
+    gap: 32px;
+    margin-bottom: 0;
+  }
+
+  .hotel-images-item {
+    gap: 28px;
+  }
+
   /* .container.mini-container {
         max-width: 1158px;
     } */
