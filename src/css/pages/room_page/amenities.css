@@ -11,8 +11,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   background-color: var(--dark-background-color--);
 }
 
-.container {
-}
 
 .general-amenities-container {
   text-align: start;
@@ -21,11 +19,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .general-amenities {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-.container {
-}
-.general-amenities-container {
-  text-align: start;
 }
 
 .general-amenities-list {
