@@ -180,12 +180,32 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         max-width: 734px;
     }
 
+    .double-lux-list {
+        position: relative;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 32px;
+    }
+
     .double-lux {
         padding-bottom: 80px;
     }
 
+    .item-bedroom {
+        justify-content: flex-end;
+    }
+
     .item-bathroom {
         order: -1;
+    }
+
+    .item-kitchen {
+        top: 293px;
+        left: 0;
+        position: absolute;
     }
 
     /* .container.mini-container {
