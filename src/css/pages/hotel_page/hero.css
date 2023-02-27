@@ -38,11 +38,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
-.hero-hotel {
 
-
-
-}
 
 .hero-hotel-title {
 padding-top: 118px;
@@ -66,11 +62,18 @@ text-transform: uppercase;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   padding: 8px 18px;
-  border: 0.8px solid #121212;;
+  border: 0.8px solid #121212;
   border-radius: 32px;
   margin-top: 24px;
   margin-left: 12px;
   margin-bottom: 40px;
+  
+}
+
+.hero-button-hotel:hover , .hero-button-hotel:focus{
+    color: var(--typical-light-color);
+    background-color: var(--typical-dark-color);
+    border:0.8px solid var(--typical-light-color) ;
 }
 
 .hero-button-hotel.first{
@@ -78,13 +81,8 @@ text-transform: uppercase;
 }
 
 
-.hero-img-list {
-    
-}
-.hero-img-item:first-child {
-    
 
-}
+
 .hotel-hero-container{
     position: relative;
 }
@@ -143,6 +141,9 @@ line-height: 1;
 
     .hero-img{
         width: 436px;
+    }
+    .hero-img.img-hero-restaurant{
+        width: 431px;
     }
     .hero-img-cut {
         width: 264px;
