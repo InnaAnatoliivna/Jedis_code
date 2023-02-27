@@ -7,6 +7,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 .general-amenities {
+  background-color: var(--dark-background-color);
 }
 
 .general-amenities-container {
@@ -19,15 +20,33 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .general-amenities-item {
 }
 .general-amenities-subtitle {
+  color: var(--typical-suptitle-color);
+  font-family: 'DMSans-Bold-700', sans-serif;
+  font-size: 28px;
+  line-height: calc(32/28);
+  letter-spacing: -0.02em;
 }
 .amenities-list {
 }
 .amenities-text {
+  color: var(--typical-light-color);
+  font-size: 14px;
+  line-height: calc(18/14);
+  letter-spacing: -0.02em;
 }
 .amenities-images-list {
 }
+
 .amenities-images-item {
+  max-width: 207px;
+  height: 103px;
 }
+
+.amenities-images-item .amenities-img {
+  max-width: 259px;
+  height: 333px;
+}
+
 .amenities-btn {
 }
 
@@ -43,9 +62,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .container {
     max-width: 734px;
   }
-  /* .container.mini-container {
+/* .container.mini-container {
         max-width: 734px;
     } */
+
+
+  .amenities-images-item {
+  max-width: 365px;
+  height: 182px;
+}
+
+.amenities-images-item .amenities-img {
+  max-width: 408px;
+  height: 525px;
+}
+  
 }
 
 @media screen and (min-width: 1440px) {
