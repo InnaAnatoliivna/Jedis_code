@@ -2,65 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Jedis_code/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/jedis_code/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mimino</title>
+<!-- slick styles -->
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/Jedis_code/assets/mobile-menu-793009b0.js"></script>
-    <link rel="stylesheet" href="/Jedis_code/assets/mobile-menu-c887b498.css">
+    <script type="module" crossorigin src="/jedis_code/assets/hero-swiper-45d34289.js"></script>
+    <link rel="stylesheet" href="/jedis_code/assets/hero-swiper-045e2fe3.css">
   </head>
   <body>
     <header class="header">
-    <div class="container header-container">
-        <nav>
-            <ul class="navigation">
-                <li class="item"><a class="nav-head-name selected" href="../index.html">Home</a></li>
-                <li class="item"><a class="nav-head-name second-selected" href="../page-hotel.html">Hotel</a></li>
-                <li class="item"><a class="nav-head-name three-selected" href="../page-restaurant.html">Restaurant</a></li>
-            </ul>
-            <button type="button" class="burger-btn" data-menu-open><svg class="burger-menu"><use href="/Jedis_code/assets/sprite-nikita-3f50b88d.svg#icon-burger-menu"></use></svg></button >
-        </nav>
-        <div class="hero-logo">
-            <a class="logo-box" href="">
-                <p class="up-logo">Mimino</p>
-                <p class="down-logo">restaurant-hotel complex</p>
-            </a>
-        </div>
-        <div class="flex-empty"></div>
-        <ul class="sm-list">
-            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
-            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
-            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
-        </ul>
-    </div >
-    <div class="mobile-menu is-hidden" data-menu>
-        <div class="outline">
-            <div class="container">
-                <div class="menu-header" >
-                    <button type="button" class="x-close-btn" data-menu-close><svg class="x-close"><use href="../img/sprite-nikita.svg#icon-x-close"></use></svg></button>
-                <div class="hero-logo">
-                    <a class="logo-box" href="">
-                        <p class="up-logo">Mimino</p>
-                        <p class="down-logo">restaurant-hotel complex</p>
-                    </a>
-                </div>
-                <div class="flex-empty"></div>
-                </div>
+    <div class="container ">
+        <div class="header-container">
+            <nav>
+                <ul class="navigation">
+                    <li class="item"><a class="nav-head-name selected" href="./index.html">Home</a></li>
+                    <li class="item"><a class="nav-head-name second-selected" href="./page-hotel.html">Hotel</a></li>
+                    <li class="item"><a class="nav-head-name three-selected" href="./page-restaurant.html">Restaurant</a></li>
+                </ul>
+                <button type="button" class="burger-btn" data-menu-open><svg class="burger-menu"><use class="burger-svg" href="/jedis_code/assets/sprite-nikita-117bd253.svg#icon-burger-menu"></use></svg></button >
+            </nav>
+            <div class="hero-logo">
+                <a class="logo-box" href="">
+                    <p class="up-logo">Mimino</p>
+                    <p class="down-logo">restaurant-hotel complex</p>
+                </a>
             </div>
-        </div>
-        <div class="container bgc-menu-color">
-            <ul class="mobile-menu-nav">
-                <li class="item"><a class="nav-name" href="../index.html">Home</a></li>
-                <li class="item"><a class="nav-name" href="../page-hotel.html">Hotel</a></li>
-                <li class="item"><a class="nav-name" href="../page-restaurant.html">Restaurant</a></li>
+            <div class="flex-empty"></div>
+            <ul class="sm-list">
+                <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+                <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
             </ul>
-            <ul class="sm-mob-menu-list">
-                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
-                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
-                <li class="item"><a href=""><svg class="mobile-menu-sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
-            </ul>
-        </div>
+        </div >
+       
+    </div>
+    <div class="mobile-menu is-hidden" data-menu>
+        
+            <div class="mobile-menu-header">
+                <div class="container">
+                    
+                    <div class="mobile-menu-header-box">
+                        <button type="button" class="mobile-menu-close-btn" data-menu-close><svg class="close-icon"><use class="close-svg" href="../img/sprite-nikita.svg#icon-x-close"></use></svg>
+                        </button>
+                        <div class="hero-logo menu-logo">
+                            <a class="logo-box" href="">
+                                <p class="up-logo">Mimino</p>
+                                <p class="down-logo">restaurant-hotel complex</p>
+                            </a>
+                        </div>
+                        <ul class="sm-list">
+                            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+                            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+                            <li class="item"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+
+
+            </div>
+            <div class="container">
+                <ul class="mobile-menu-nav">
+                 <li class="mobile-menu-item"><a class="nav-name" href="../index.html">Home</a></li>
+                 <li class="mobile-menu-item"><a class="nav-name" href="../page-hotel.html">Hotel</a></li>
+                 <li class="mobile-menu-item"><a class="nav-name" href="../page-restaurant.html">Restaurant</a></li>
+                </ul>
+                <ul class="sm-mobmenu-list">
+                 <li class="item-sm-mobile-menu"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-instagram-light"></use></svg></a></li>
+                 <li class="item-sm-mobile-menu"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-facebook-light"></use></svg></a></li>
+                 <li class="item-sm-mobile-menu"><a href=""><svg class="sm-icon"><use href="../img/sprite-nikita.svg#icon-twitter-light"></use></svg></a></li>
+             </ul>
+                
+             </div>
+        
     </div>
 </header>
     <main>
@@ -77,76 +99,163 @@
             <li><button class="hero-button first" type="button">book a room</button></li>
             <li><button class="hero-button" type="button">book  a table</button></li>
         </ul>
+        
+        
     </div>
 </section>
 </mein>
       <!-- section about -->
-
-<section class="about">
-    <div class="container about-container">
-    <div>
-    <ul>
-        <li> <img src="" alt="lobby" width="335px" height="442px"></li>
-        <li> <img src="" alt="bath" width="282px" height="153px"></li>
-        <li> <img src="" alt="review" width="212px" height="61"></li>
-    </ul>
+<section class="about-hotel">
+    <div class="container about-hotel-container">
+        <h2 class="about-goust-title">Restaurant-hotel complex</h2>
+            <div class="box-pictures-about">
+                <ul class="about-home-list">
+                    <li class="lobby-image-about"> 
+                        <picture>
+                            <source srcset="../img/tablet/Lobby-tablet-1x.jpg 1x, ../img/tablet/Lobby-tablet-2x.jpg 2x" media="(min-width: 768px)" type="image/jpg">
+                            <img 
+                            srcset="
+                            ../img/mobile/lobby-1x.jpg 1x, 
+                            ../img/mobile/lobby-2x.jpg 2x"
+                            src="../img/mobile/lobby-1x.jpg" alt="lobby" >
+                        </picture>   
+                        <div class="reviews">
+                            <div class="reviews-item">
+                                <picture>
+                                    <source srcset="../img/mobile/Maria-1x.png 1x, ../img/mobile/maria-2x.png 2x" media="(min-width:300px)" >
+                                    <img  
+                                    srcset="../img/mobile/Maria-1x.png 1x, ../img/mobile/maria-2x.png 2x"
+                                    src="../img/mobile/Maria-1x.png" alt="maria" width="41" height="41">
+                                </picture>
+                                
+                            </div>
+                            <div class="maria-rating">
+                                <p class="name-reviews">Maria</p>
+                                <p class="rating-reviews">give rating <span class="rating-number">4.5</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="bath-image-about"> 
+                        <picture>
+                            <source srcset="../img/tablet/bath-tablet-1x.jpg 1x, ../img/tablet/bath-tablet-2x.jpg 2x" media="(min-width: 768px) and (max-width: 1440px)" type="image/jpg">
+                            <source srcset="../img/desktop/bath-desktop-1x.jpg 1x, ../img/desktop/bath-desktop-2x.jpg 2x" media="(min-width: 1440px)" type="image/jpg">
+                            <img 
+                            srcset="../img/mobile/bathroom-mobile-1x-282-153px.jpg 1x, ../img/mobile/bathroom-mobile-2x-282-153px.jpg 2x"
+                            src="../img/mobile/bath-1x.jpg" alt="bath" >
+                        </picture>
+      
+                    </li>
+                </ul>
+                </div>
+                <div class="complex-text-container">
+                <h3 class="about-home-title">restaurant-hotel complex</h3>
+                <div class="sub-container">
+                <p class="about-home-subtitle">Indulge in a taste of luxury with every bite at Hotel Mimino. 
+                    From the freshest seafood to the most succulent steaks, 
+                    every dish is crafted with care to ensure that you enjoy a truly memorable dining experience.</p>
+                <p class="about-home-subtitle">Treat yourself to a taste of the good life and come dine with us today!</p>
+                </div>
+        </div>
+    
     </div>
-    <div class="complex-text-container">
-    <h2 class="about-title">restaurant-hotel complex</h2>
-    <div class="sub-container">
-    <p class="subtitle">Indulge in a taste of luxury with every bite at Hotel Mimino. 
-        From the freshest seafood to the most succulent steaks, 
-        every dish is crafted with care to ensure that you enjoy a truly memorable dining experience.</p>
-    <p class="subtitle">Treat yourself to a taste of the good life and come dine with us today!</p>
-</div>
-</div>
-    </div>
-    <div class="container">
-        <div>
-            <ul>
-                <li> 
-                    <img src="" alt="" width="335px" height="311">
+    <div class="container ">
+        <div class="about-hotel-container-mini">
+            <div class="buisnes-image-list"> 
+                <picture >
+                    <source srcset="../img/tablet/bokal-tablet-1x.jpg 1x, ../img/tablet/bokal-tablet-2x.jpg 2x " media="(min-width: 768px)" type="image/jpg">
+                    <img class="buisnes-bokal-image" 
+                    srcset="../img/mobile/mob-bokal-tabel-1x.jpg 1x, ../img/mobile/mob-bokal-tabel-2x.jpg 2x"
+                    src="../img/mobile/mob-bokal-tabel-1x.jpg" alt="bokal">
+                </picture>
+                <div class="reviews-alex">
+                    <div class="reviews-item">
+                        <picture>
+                            <source srcset="../img/mobile/alexander-1x.png 1x, ../img/mobile/alexander-2x.png 2x">
+                            <img class="alex" src="../img/mobile/alexander-1x.png" alt="Alexander" width="41" height="41" >
+                        </picture>
+                    </div>
+                    <div class="maria-rating">
+                        <p class="name-reviews">Alexander</p>
+                        <p class="rating-reviews">give rating <span class="rating-number">5.5</span></p></div>
+                </div>
+            </div>
+                <ul class="buisnes-hotel-list">
+                    <li>
                     <div class="busines-text-container">
-                    <h3 class="about-title">business class hotel</h3>
-                    <p class="subtitle">The Mimino hotel features spacious and stylish double luxury rooms with 
+                    <h3 class="about-home-title">business class hotel</h3>
+                    <p class="about-home-subtitle">The Mimino hotel features spacious and stylish double luxury rooms with 
                     modern amenities for a comfortable stay.</p>
                     </div>
                 </li>
-                <li> <img src="" alt="" width="335px" height="309px"></li>
-                <li> <img src="" alt="" width="212px" height="61"></li>
+                <li >
+                    <picture>
+                        <source srcset="../img/tablet/restorant-tablet-1x.jpg 1x, ../img/tablet/restorant-tablet-2x.jpg 2x" media="(min-width: 768px)" type="image/jpg">
+                        <img class="buisnes-resoran-image" 
+                        srcset="../img/mobile/cafe-mobile-1x-335-309px.jpg 1x, ../img/mobile/cafe-mobile-2x-335-309px.jpg 2x"
+                        src="../img/mobile/cafe-mobile-1x-335-309px.jpg" alt="cafe">
+                    </picture> 
+                    </li>
             </ul>
             </div>
             
     </div>
 </section>
       <!-- section -->
-      <section class="welcome">
-  <div class="container">
-    <h2 class="welcome-text">Welcome to the epitome of luxury and comfort</h2>
-    <p class="welcome-paragraf">
-      Our hotel rooms are elegantly designed with an eye for detail, ensuring
-      that you have everything you need for a relaxing and rejuvenating stay.
-    </p>
-    <p class="welcome-paragraf">
-      Each room is equipped with the latest amenities, including plush bedding,
-      high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help you start
-      your day right. Our spacious bathrooms feature luxurious toiletries and
-      towels, so you can pamper yourself in complete privacy.
-    </p>
-  </div>
-  <div>
-    <img
-      srcset="
-        ../img/mobile/welcome-mobile-1x.jpg 1x,
-        ../img/mobile/welcome-mobile-2x.jpg 2x
-      "
-      src="../img/mobile/welcome-mobile-1x.jpg"
-      alt="room with lights"
-    />
+      
+<section class="welcome">
+  <div class="container welcome-about-container">
+    <div class="welcome-desktop-container">
+     <div class="welcome-container">
+    <h2 class="welcome-text">Welcome to the epitome of <span class="
+      welcome-italic">luxury</span> and <span class="welcome-italic">comfort</span></h2>
+      <div class="welcome-paragraf-text">
+        <p class="welcome-paragraf welcome-first">
+          Our hotel rooms are elegantly designed with an eye for detail,
+          ensuring that you have everything you need for a relaxing and
+          rejuvenating stay.
+        </p>
+        <p class="welcome-paragraf welcome-second">
+          Each room is equipped with the latest amenities, including plush
+          bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help
+          you start your day right. Our spacious bathrooms feature luxurious
+          toiletries and towels, so you can pamper yourself in complete privacy.
+        </p>
+      </div>
+    </div>
+    <div class="welcome-picture">
+      <picture>
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            ../img/desktop/welcome-desktop-1x.jpg 1x,
+            ../img/desktop/welcome-desktop-2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ../img/tablet/welcome-tablet-1x.jpg 1x,
+            ../img/tablet/welcome-tablet-2x.jpg 2x
+          "
+        />
+        
+        <img
+          class="welcome-img"
+          srcset="
+            ../img/mobile/welcome-mobile-1x.jpg 1x,
+            ../img/mobile/welcome-mobile-2x.jpg 2x
+          "
+          src="../img/mobile/welcome-mobile-1x.jpg"
+          alt="room with lights"
+        />
+      </picture>
+    </div>
+    </div>
   </div>
 </section>
 
-      <!-- section -->
+      section
 <section class="section hotel">
   <div class="container">
     <div class="hotel-title-btn">
@@ -189,7 +298,7 @@
   </div>
 </section>
 
-<section>
+<!-- <section>
   <div class="container">
     <h2 class="section-title">Location</h2>
     <iframe 
@@ -210,13 +319,13 @@
       </li>
     </ul>
   </div>
-</section>
+</section> -->
 
       <!-- section -->
 <section class="section location">
   <div class="container container-location">
     <h2 class="location-title">Location</h2>
-    <iframe
+    <iframe 
       class="google-map"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.9232137442787!2d34.52435761547751!3d49.599197456213396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2sMarshala%20Biryuzova%20St%2C%2015%2C%20Poltava%2C%20Poltavs&#39;ka%20oblast%2C%2036000!5e0!3m2!1sen!2sua!4v1677318339280!5m2!1sen!2sua"
       width="640"
@@ -256,5 +365,3 @@
     
   </body>
 </html>
-
-
