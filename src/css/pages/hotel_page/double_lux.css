@@ -6,7 +6,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 .double-lux {
-    padding-bottom: 100px;
+
+    padding-bottom: 64px;
 }
 
 .double-lux-list {
@@ -31,6 +32,45 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .double-lux-text-item:not(:last-child) {
     margin-bottom: 24px;
+}
+
+
+.double-lux-text-item:not(:first-child) {
+    margin-bottom: 28px;
+}
+
+.double-lux-btn-list {
+    display: flex;
+    gap: 12px;
+}
+
+.double-lux-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.double-lux-btn {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    padding: 8px 18px;
+    gap: 10px;
+    max-width: 128px;
+    height: 34px;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+}
+
+.double-lux-btn:hover,
+.double-lux-btn:focus {
+    background-color: #121212;
+    color: #F6F6F6;
 }
 
 .double-lux-text-item:not(:first-child) {
@@ -77,6 +117,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 @media screen and (min-width: 375px) {
     .container {
         max-width: 365px;
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }
 
