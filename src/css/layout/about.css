@@ -11,13 +11,17 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   padding-bottom: 64px;
 }
 
-.about-goust-title {
-  position: absolute;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
+/* .about-goust-title {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.about-home-list{
+    
+} */
 
 /* .about-home-list {
 } */
