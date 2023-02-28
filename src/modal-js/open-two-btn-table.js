@@ -2,7 +2,7 @@
     const refs = {
         openModalBtn: document.querySelector('[data-modal-table-open-d]'),
         //====
-        openOtherBtn: document.querySelector('[data-modal-table-open-s]')
+        openOtherBtn: document.querySelector('[data-modal-table-open-s]'),
         //====
         closeModalBtn: document.querySelector('[data-modal-table-close]'),
         modal: document.querySelector('[data-modal-table]'),
