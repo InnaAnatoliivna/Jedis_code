@@ -1,4 +1,3 @@
-<body>
     <div class="container mimino-container">
         <h1 class="mimino-title">Mimino</h1>
         <button type="button" data-modal-open class="hero-btn">
@@ -28,6 +27,7 @@
                     name="user-name"
                     type="text"
                     placeholder="YOUR NAME"
+                    pattern="^[a-zA-Zа-яА-Яа-яА-Яі-Ії-Ї]+$"
                     required
                     minlength="2"/>
                     <p class="modal-text">Who should book a table for?</p>
@@ -187,6 +187,3 @@
           <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
         </div>
     </div>
-    <script src="./js/modal.js"></script>      
-    </body>
-  </html>
