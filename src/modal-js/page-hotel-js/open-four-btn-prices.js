@@ -2,9 +2,9 @@
   const refs = {
     openModalBtn: document.querySelector('[data-modal-prices-open]'),
     // ===for 4 btn
-    openSecondBtn: document.querySelector('[data-modal-prices-open-a]'),
-    openThirdBtn: document.querySelector('[data-modal-prices-open-b]'),
-    openFourthBtn: document.querySelector('[data-modal-prices-open-c]'),
+    openSecondModalBtn: document.querySelector('[data-modal-prices-open-a]'),
+    openThirdModalBtn: document.querySelector('[data-modal-prices-open-b]'),
+    openFourthModalBtn: document.querySelector('[data-modal-prices-open-c]'),
     //========
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('[data-modal-prices]'),
@@ -12,12 +12,13 @@
   };
 
   refs.openModalBtn.addEventListener('click', toggleModal);
-    refs.closeModalBtn.addEventListener('click', toggleModal);
-    //======
-    refs.closeSecondBtn.addEventListener('click', toggleSecond);
-    refs.closeThirdBtn.addEventListener('click', toggleThird);
-    refs.closeFourthBtn.addEventListener('click', toggleFourth);
-    //========
+  //======
+  refs.openSecondModalBtn.addEventListener('click', toggleSecondModal);
+  refs.openThirdModalBtn.addEventListener('click', toggleThirdModal);
+  refs.openFourthModalBtn.addEventListener('click', toggleFourthModal);
+  //========
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
     refs.body.classList.toggle('no-scroll');
