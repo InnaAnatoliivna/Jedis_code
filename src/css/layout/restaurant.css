@@ -81,11 +81,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     border-radius: 32px;
     height: 42px;
 }
-
-.photo-about-rest:not(:last-child) {
+/* .arrow-left{
+    background: #000;
+} */
+/* .photo-about-rest:not(:last-child) {
     /* height:  309px;
-    width: 266px; */
+    width: 266px; 
     margin-right: 32px;  
+} */
+.swiper .swiper-item{
+    padding-right: 32px;
 }
 .arrow-about {
     display: flex;
