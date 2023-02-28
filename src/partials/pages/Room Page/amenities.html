@@ -88,14 +88,14 @@
       </li>
     </ul>
     <ul class="amenities-images-list">
-      <li class="amenities-images-item">
+      <li class="amenities-images-item amenities-first-img">
         <picture>
           <source
             srcset="
               ./img/desktop/soap2-desktop-1x-439-219px.jpg 1x,
               ./img/desktop/soap2-desktop-2x-439-219px.jpg 2x
             "
-            type="image/jpeg" 
+            type="image/jpeg"
             media="(min-width: 1440px)"
           />
           <source
@@ -103,7 +103,7 @@
               ./img/tablet/soap2-tablet-1x-365-182px.jpg 1x,
               ./img/tablet/soap2-tablet-2x-365-182px.jpg 2x
             "
-            type="image/jpeg" 
+            type="image/jpeg"
             media="(min-width: 768px)"
           />
           <source
@@ -111,8 +111,8 @@
               ./img/mobile/soap2-mobile-1x-207-103px.jpg 1x,
               ./img/mobile/soap2-mobile-2x-207-103px.jpg 2x
             "
-            type="image/jpeg" 
-            media="(max-width: 375px)"
+            type="image/jpeg"
+            media="(min-width: 375px)"
           />
           <img
             src="./img/desktop/soap2-desktop-1x-439-219px.jpg"
@@ -121,14 +121,14 @@
           />
         </picture>
       </li>
-      <li class="amenities-images-item amenities-img">
+      <li class="amenities-images-item amenities-second-img">
         <picture>
           <source
             srcset="
               ./img/desktop/bathroom2-desktop-1x-496-636px.jpg 1x,
               ./img/desktop/bathroom2-desktop-2x-496-636px.jpg 2x
             "
-            type="image/jpeg" 
+            type="image/jpeg"
             media="(min-width: 1440px)"
           />
           <source
@@ -136,7 +136,7 @@
               ./img/tablet/bathroom2-tablet-1x-408-525px.jpg 1x,
               ./img/tablet/bathroom2-tablet-2x-408-525px.jpg 2x
             "
-            type="image/jpeg" 
+            type="image/jpeg"
             media="(min-width: 768px)"
           />
           <source
@@ -144,8 +144,8 @@
               ./img/mobile/bathroom2-mobile-1x-259-333px.jpg 1x,
               ./img/mobile/bathroom2-mobile-2x-259-333px.jpg 2x
             "
-            type="image/jpeg" 
-            media="(max-width: 767px)"
+            type="image/jpeg"
+            media="(min-width: 375px)"
           />
           <img
             src="./img/desktop/bathroom2-desktop-1x-496-636px.jpg"
@@ -155,8 +155,6 @@
         </picture>
       </li>
     </ul>
-    <button class="amenities-btn btn" data-modal-open type="button">
-      Book a room
-    </button>
+    <button class="amenities-btn btn" type="button">Book a room</button>
   </div>
 </section>
