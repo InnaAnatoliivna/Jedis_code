@@ -122,7 +122,224 @@
 
       <!-- section -->
 
-      
+      <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./css/styl.css" rel="stylesheet" />
+    <!-- <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/mobile.css" rel="stylesheet" />
+    <link href="./css/tablet.css" rel="stylesheet" />
+    <link href="./css/desktop.css" rel="stylesheet" /> -->
+  </head>
+<body>
+    <div class="container mimino-container">
+        <h1 class="mimino-title">Mimino</h1>
+        <button type="button" data-modal-open class="hero-btn">
+          BOOK A TABLE
+        </button>
+        <button type="button" datar-modal-open class="hero-btn">
+          BOOK A ROOM
+        </button>
+        <button type="button" datap-modal-open class="hero-btn">
+          PRICES PER ROOM
+        </button>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">            
+          <button type="button" data-modal-close class="modal-close">
+            <svg class="button-x" width="12" height="12">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>          
+          <p class="modal-title">BOOK A TABLE</p>          
+          <form class="modal-form">          
+              <div class="modal-field">
+                <label class="modal-input-text" for="user-name"></label>
+                <div class="input-wrap">
+                  <input class="modal-input"
+                    id="user-name"
+                    name="user-name"
+                    type="text"
+                    placeholder="YOUR NAME"
+                    required
+                    minlength="2"/>
+                    <p class="modal-text">Who should book a table for?</p>
+                </div>
+              </div>
+              <div class="modal-field">
+                <label class="modal-input-text" for="number-of-people"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="number-of-people" placeholder="NUMBER OF PEOPLE">
+                    <option value="quantity">NUMBER OF PEOPLE</option>
+                    <option value="quantity">1</option>
+                    <option value="quantity">2</option>
+                    <option value="quantity">3</option>
+                    <option value="quantity">4</option>
+                    <option value="quantity">over 4</option>
+                  </select>
+                </div>
+              </div>
+              <div class="modal-field">
+                <label class="modal-input-text" for="today"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="today" placeholder="TODAY">
+                    <option value="when">TODAY</option>
+                    <option value="when">TOMORROW</option>
+                    <option value="when">DAY AFTER TOMORROW</option>
+                  </select>
+                  <p class="modal-text">What date to book?</p>
+                </div>
+              </div>               
+              <div class="modal-field">
+                <label class="modal-input-text" for="user-tel"></label>
+                <div class="input-wrap">
+                  <input class="modal-input"
+                    id="user-tel"
+                    name="user-tel"
+                    type="tel"
+                    pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                    title=""
+                    placeholder="+ 38 ()"
+                    required/>
+                    <p class="modal-text">Phone number</p>
+                </div>
+              </div>           
+          </form>         
+          <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
+        </div>
+    </div>
+    <div class="backdrop is-hidden" datar-modal>
+        <div class="modal">            
+          <button type="button" datar-modal-close class="modal-close">
+            <svg class="button-x" width="12" height="12">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>          
+          <p class="modal-title">BOOK A ROOM</p>          
+          <form class="modal-form">          
+              <div class="modal-field">
+                <label class="modal-input-text" for="user-name"></label>
+                <div class="input-wrap">
+                  <input class="modal-input"
+                    id="user-name"
+                    name="user-name"
+                    type="text"
+                    placeholder="YOUR NAME"
+                    required
+                    minlength="2"/>
+                    <p class="modal-text">Who should book a table for?</p>
+                </div>
+              </div>
+              <div class="modal-field">
+                <label class="modal-input-text" for="user-tel"></label>
+                <div class="input-wrap">
+                  <input class="modal-input"
+                    id="user-tel"
+                    name="user-tel"
+                    type="tel"
+                    pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                    title="+380 (96) 111-11-11"
+                    placeholder="+ 38 ()"
+                    required/>
+                    <p class="modal-text">Phone number</p>
+                </div>
+              </div>              
+              <div class="modal-field">
+                <label class="modal-input-text" for="today"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="today">
+                    <option value="when">TODAY</option>
+                    <option value="when">TOMORROW</option>
+                    <option value="when">DAY AFTER TOMORROW</option>
+                  </select>
+                  <p class="modal-text">Check-in date</p>
+                </div>
+              </div>             
+              <div class="modal-field">
+                <label class="modal-input-text" for="data"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="data" placeholder="25/04/2023">
+                    <option value="when">25/04/2023</option>
+                    <option value="when">26/04/2023</option>
+                    <option value="when">27/04/2023</option>
+                  </select>
+                  <p class="modal-text">Check-in date</p>
+                </div>
+              </div>
+              <div class="modal-field">
+                <label class="modal-input-text" for="number"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="number">
+                    <option value="quantity">DOUBLE SUITE</option>
+                    <option value="quantity">DOUBLE LUXURY ROOM</option>
+                    <option value="quantity">TRIPLE ROOM</option>
+                    <option value="quantity">FOUR-SEATER ROOM</option>
+                  </select>
+                  <p class="modal-text">Number category</p>
+                </div>
+              </div>           
+          </form>         
+          <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
+        </div>
+    </div>
+    <div class="backdrop is-hidden" datap-modal>
+        <div class="modal">            
+          <button type="button" datap-modal-close class="modal-close">
+            <svg class="button-x" width="12" height="12">
+              <use href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>          
+          <p class="modal-title">PRICES PER ROOM</p>          
+          <form class="modal-form">
+                <p class="modal-input-title">DOUBLE SUITE</p>                
+              <div class="modal-field">
+                <label class="modal-input-text" for="number"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="number"  placeholder="1">
+                    <option value="quantity">1</option>
+                    <option value="quantity">2</option>
+                    <option value="quantity">3</option>
+                    <option value="quantity">4</option>
+                    <option value="quantity">over 4</option>
+                  </select>
+                  <p class="modal-text">Number of nights</p>
+                </div>
+              </div>
+              <div class="modal-field">
+                <label class="modal-input-text" for="Date"></label>
+                <div class="input-wrap">
+                  <select class="modal-input" name="data" placeholder="25/04/2023">
+                    <option value="when">25/04/2023</option>
+                    <option value="when">26/04/2023</option>
+                    <option value="when">27/04/2023</option>
+                  </select>
+                  <p class="modal-text">Check-in date</p>
+                </div>
+              </div>                        
+          </form>         
+          <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>      
+    </body>
+  </html>
     </main>
     <footer class="footer">
     <div class="container footer-container">
