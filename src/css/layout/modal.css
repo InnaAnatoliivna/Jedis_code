@@ -1,36 +1,5 @@
-:root {
-    --accent-color: #2E2F42;
-    --primery-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primery-color: #404BBF;
-    --secondary-color: #434455;
-    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  body {
-    font-family: var(--primery-font);
-    font-size: 16px;
-    font-weight: 500;
-    color: #434455;
-    background-color: #FFFFFF;
-  
-  }
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 0;
-  }
-  
-  ul {
-    margin: 0;
-    padding-left: 0;
-  }
-  
-  button {
-    cursor: pointer;
-  }
 
-  .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,11 +7,11 @@
     background: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
   }
-  .is-hidden {
+  /* .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-  }
+  } */
   .modal {
     overflow-y: scroll;
     width: 100%;
