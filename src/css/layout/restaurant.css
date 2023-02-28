@@ -5,8 +5,112 @@
 cubic-bezier(0.4, 0, 0.2, 1). */
 
 
+.about-rest {
+    padding-top: 44px;
+    padding-bottom: 26px;
 
+}
+.about-inline{
+    display: flex;
+    margin-bottom: 125px;
+}
+.about-rest-title {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-right: 32px;
 
+}
+.about-rest-subtitle {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+
+    height: 54px;
+    width: 221px;
+    
+}
+.button{
+    display: flex;
+    gap: 14px;
+    margin-left: auto;
+}
+.btn-book-table {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #121212;
+    padding: 9px 24px;
+    gap: 10px;
+    background-color: transparent;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    height: 42px;
+}
+.btn-menu {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #121212;
+
+    padding: 9px 24px;
+    gap: 10px;
+    background-color: transparent;
+
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    height: 42px;
+}
+
+.photo-about-rest:not(:last-child) {
+    /* height:  309px;
+    width: 266px; */
+    margin-right: 32px;  
+}
+.arrow-about {
+    display: flex;
+    gap: 32px;
+    margin-top: 51px;
+    align-items: center;
+    justify-content: center;
+}
+.link-arrow-left {
+    height: 36px;
+    width: 36px;
+    border: 1px solid black;
+        
+
+}
+.link-arrow-right{
+    height: 36px;
+    width: 36px;
+    border: 1px solid black;    
+}
+.arrow-left-icon {
+    color: aqua;
+}
+.arrow-right-icon {
+}
 
 
 /* =================== ADAPTIVE ===================== */
