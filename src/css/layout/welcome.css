@@ -9,27 +9,104 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
+.welcome {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.welcome-text {
+    font-family: 'DM Sans';
+font-weight: 500;
+font-size: 32px;
+line-height: 1.12;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #000000;
+padding-bottom: 32px;
+}
+.container{
+    outline: none;
+    padding: 0;
+}
+
+.welcome-paragraf {
+font-family: 'DM Sans';
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+text-align: justify;
+}
+.welcome-first{
+padding-bottom: 32px;
+width: 306px;
+}
+.welcome-second{
+padding-bottom: 32px;
+width: 335px;
+}
+.welcome-img{
+    padding-bottom: 64px;
+}
+.welcome-picture{
+    display: flex;
+    align-items: center;
+}
+
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: 365px;
+        max-width: 375px;
+    }
+    .welcome-img{
+        width: 335px;
     }
 }
 
 @media screen and (min-width: 768px) {
+   
     .container {
-        max-width: 734px;
+        max-width: 768px;
     }
     /* .container.mini-container {
         max-width: 734px;
     } */
+    .welcome{
+        
+    }
+    .welcome-paragraf-text{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding: 0;
+        padding-bottom: 29px;
+    }
+    .welcome-first{
+
+    }
+    .welcome-second{
+        width: 366px;
+
+    }
+    .welcome-img{
+        width: 704px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1406px;
     }
+    .welcome-img{
+        width: 672px;
+    }
+    .welcome-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
     /* .container.mini-container {
         max-width: 1158px;
     } */
