@@ -29,8 +29,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .footer-logo {
-    font-family: 'DM Sans';
-    font-weight: 500;
+    font-family: 'DMSans-Medium-500', sans-serif;
     font-size: 20px;
     display: block;
     padding-top: 24px;
@@ -42,7 +41,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 .footer-desc {
-    font-family: 'DM Sans';
     font-size: 8px;
     line-height: 1.25;
     letter-spacing: 0.18em;
@@ -107,8 +105,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     }
 
     .footer-link {
-        font-family: 'DM Sans';
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.28;
         letter-spacing: 0.05em;
