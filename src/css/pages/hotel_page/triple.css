@@ -6,9 +6,9 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
-body {
-    font-family: 'DM Sans', sans-serif;
-  }
+.triple {
+    padding-bottom: 64px;
+}
 
  .triple-photos {
     position: relative;
@@ -16,7 +16,7 @@ body {
     margin-bottom: 32px;
 }
 
-.triple-item-1 {
+.triple-item-1, .triple-item-3 {
     position: absolute;
     width: 158px;
     height: 149px;
@@ -24,19 +24,16 @@ body {
 }
 
 .triple-item-2 {
+
     position: absolute;
     width: 335px;
     height: 468px; 
-   
 }
 
 .triple-item-3 {
-    position: absolute;
-    width: 157px;
-    height: 149px;
-    top: 488px;
-    left: 178px;
-} 
+  left: 179px;
+}
+ 
 
 .triple-button-list {
     display: flex;
@@ -44,38 +41,39 @@ body {
 
 .triple-button-link {
     display: flex;
-    justify-content: center;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
-    letter-spacing: -0.02em;
-    color: #121212;
-    background-color: #F7F7F7;
-    margin-right: 12px;
-
-    width: 128px;
-    height: 34px;
-    padding: 9px 24px;
     border: 0.8px solid #121212;
+    padding: 8px 18px;
     border-radius: 32px;
     
+    height: 34px;
+    margin-right: 10px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    background-color: #F7F7F7;
+    color: #121212;
+
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .triple-button {
-
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: #121212;
+    text-transform: uppercase;
     background-color: #F7F7F7;
 
-    width: 128px;
     height: 34px;
-    padding: 9px 24px;
+    padding: 8px 18px;
     border: 0.8px solid #121212;
     border-radius: 32px;
     
@@ -102,6 +100,7 @@ body {
     font-size: 32px;
     line-height: 1.25;
     letter-spacing: -0.02em;
+    text-transform: uppercase;
     color: #121212;
 
     margin-bottom: 32px;
@@ -136,13 +135,6 @@ body {
     }
 }
 
-@media  screen and (max-width: 1439px) {
-    .triple-info-text {
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-}
 
 @media screen and (max-width: 767px) {
     .tripple-text-div:not(:last-child) {
@@ -189,6 +181,11 @@ body {
         left: 363px;
     } 
 
+    .triple-info-text {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
     .title-triple {
         
         font-size: 40px;
@@ -200,17 +197,12 @@ body {
             margin-top: 40px;
         }
 
-    .triple-button-link {
-        margin-right: 14px;
+     .triple-button-link, .triple-button {
+        font-size: 18px;
         align-items: center;
-    }
-
-    .triple-button, 
-    .triple-button-link  {
-
-        width: 140px;
         height: 40px;
-    }
+        padding: 8px 24px;
+        }
 
 
     .text-triple {
@@ -242,7 +234,6 @@ body {
 
     .triple-button-list {
         margin-top: 0;
-        margin-right: 358px;
     }
 
 
@@ -275,20 +266,19 @@ body {
     }
 
     .triple-info-text {
-        display: flex;
         width: 1376px;
     }
 
-    .triple-button,
-    .triple-button-link  {
-
+    .triple-button {
         font-size: 18px;
         width: 166px;
         height: 42px;
+        padding: 9px 24px;
     }
 
-    .tripple-text-div:not(:last-child) {
-         margin-right: 32px;
+    .triple-text-info {
+        width: 686px;
+        margin-left: auto;
     }
     
     /* .container.mini-container {
