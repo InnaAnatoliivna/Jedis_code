@@ -1,3 +1,12 @@
-import './modal';
+import './modal-js/modal';
 import './swiper';
 import './mobile-menu';
+import './hero-swiper';
+//--pages js
+import './modal-js/open-two-btn-room';
+import './modal-js/open-two-btn-table';
+import './modal-js/page-hotel-js/open-four-btn-prices';
+import './modal-js/page-hotel-js/open-one-btn-room';
+import './modal-js/page-restaurant-js/open-two-btn-table';
+import './modal-js/page-room-js/open-one-btn-prices';
+import './modal-js/page-room-js/open-one-btn-room';
