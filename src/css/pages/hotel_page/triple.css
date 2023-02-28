@@ -54,7 +54,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     font-size: 14px;
     line-height: 1.28;
     border: 0.8px solid #121212;
-    padding: 8px 18px;
+    padding: 8px 13px;
     border-radius: 32px;
     
     height: 34px;
@@ -80,13 +80,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     background-color: #F7F7F7;
 
     height: 34px;
-    padding: 8px 18px;
+    padding: 8px 13px;
     border: 0.8px solid #121212;
     border-radius: 32px;
     
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.triple-button-link {
+    width: 128px;
+}
+
+.triple-button {
+    width: 117px;
 }
 
 .triple-button:hover,
@@ -103,6 +111,14 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .tripple-text-item:not(:last-child) {
     margin-bottom: 24px;
+}
+
+.tripple-text-item:last-child {
+    /* width: 361px; */
+}
+
+.tripple-text-item:first-child {
+    /* width: 350px; */
 }
 
 .title-triple {
@@ -185,6 +201,18 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         left: 363px;
     } 
 
+    .triple-text-info {
+        width: 704px;
+    }
+
+    .tripple-text-item:first-child {
+        width: 340px;
+     }
+
+    .tripple-text-item:last-child {
+       width: 310px;
+    }
+
     .title-triple {
         
         font-size: 40px;
@@ -197,13 +225,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         }
 
      .triple-button-link, .triple-button {
-        align-items: center;
+        /* align-items: center; */
         height: 40px;
-        padding: 8px 24px;
+        padding: 8px 18px;
         line-height: 1.7;
         }
 
-        .tripple-text-item {
+        .triple-button-link {
+            width: 140px;
+        }
+    
+        .triple-button {
+            width: 129px;
+        }
+
+        .tripple-text-item:not(:last-child) {
             margin-right: 32px;
         }
 
@@ -276,16 +312,20 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         width: 1376px;
     }
 
-    .triple-button, .triple-button-link {
+    .triple-button-link, .triple-button {
 
         font-size: 18px;
         line-height: 1.3;
         height: 42px;
-        padding: 9px 24px;
+        padding: 9px 17px;
+    }
+
+    .triple-button-link {
+        width: 166px;
     }
 
     .triple-button {
-        width: 166px;
+        width: 152px;
     }
 
     .triple-text-info {
