@@ -8,7 +8,7 @@
     
     <title>Mimino Restaurant</title>
     <script type="module" crossorigin src="/jedis_code/assets/open-one-btn-room-abb49383.js"></script>
-    <link rel="stylesheet" href="/jedis_code/assets/open-one-btn-room-24a58263.css">
+    <link rel="stylesheet" href="/jedis_code/assets/open-one-btn-room-1dbe2bda.css">
   </head>
   <body class="index index-restaurant">
     <section>
@@ -271,7 +271,7 @@
           <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
         </div>
     </div>
-    <div class="backdrop is-hidden" datap-modal>
+    <div class="backdrop is-hidden datap" datap-modal>
         <div class="modal">            
           <button type="button" datap-modal-close class="modal-close">
             <svg class="button-x" width="12" height="12">
@@ -281,7 +281,7 @@
           <p class="modal-title">PRICES PER ROOM</p>          
           <form class="modal-form">
                 <p class="modal-input-title">DOUBLE SUITE</p>                
-              <div class="modal-field">
+              <div class="modal-field suite">
                 <label class="modal-input-text" for="number"></label>
                 <div class="input-wrap">
                   <select class="modal-input" name="number"  placeholder="1">
@@ -294,13 +294,29 @@
                   <p class="modal-text">Number of nights</p>
                 </div>
               </div>
-              <div class="modal-field">
+              <div class="modal-field prices">
+                <label class="modal-input-text" for="prices"></label>
+                <div class="input-wrap">
+                  <input class="modal-input"
+                    id="user-prices"
+                    name="user-prices"
+                    type="number"
+                    placeholder="1000"
+                    required
+                    minlength="4"/>
+                    <p class="modal-text">UAH</p>
+                </div>
+              </div>
+              <div class="modal-field data">
                 <label class="modal-input-text" for="Date"></label>
                 <div class="input-wrap">
                   <select class="modal-input" name="data" placeholder="25/04/2023">
                     <option value="when">25/04/2023</option>
                     <option value="when">26/04/2023</option>
                     <option value="when">27/04/2023</option>
+                    <option value="when">28/04/2023</option>
+                    <option value="when">29/04/2023</option>
+                    <option value="when">30/04/2023</option>
                   </select>
                   <p class="modal-text">Check-in date</p>
                 </div>
