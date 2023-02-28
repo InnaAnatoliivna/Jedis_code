@@ -12,7 +12,7 @@
     refs.openModalBtn.addEventListener('click', toggleModal);
     refs.closeModalBtn.addEventListener('click', toggleModal);
     //===
-    refs.openOtherBtn.addEventListener('click', toggleOther);
+    refs.openOtherBtn.addEventListener('click', toggleModal);
     //===
 
     function toggleModal() {

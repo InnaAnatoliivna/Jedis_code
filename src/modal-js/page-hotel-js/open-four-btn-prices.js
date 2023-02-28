@@ -13,9 +13,9 @@
 
   refs.openModalBtn.addEventListener('click', toggleModal);
   //======
-  refs.openSecondModalBtn.addEventListener('click', toggleSecondModal);
-  refs.openThirdModalBtn.addEventListener('click', toggleThirdModal);
-  refs.openFourthModalBtn.addEventListener('click', toggleFourthModal);
+  refs.openSecondModalBtn.addEventListener('click', toggleModal);
+  refs.openThirdModalBtn.addEventListener('click', toggleModal);
+  refs.openFourthModalBtn.addEventListener('click', toggleModal);
   //========
   refs.closeModalBtn.addEventListener('click', toggleModal);
 
