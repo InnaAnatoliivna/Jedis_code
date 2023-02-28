@@ -1,5 +1,8 @@
-
-.backdrop {
+@media screen and (min-width: 375px) {
+  .container {
+      max-width: 365px;            
+  }
+  .backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -7,11 +10,23 @@
     background: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
   }
-  /* .is-hidden {
+  .backdrop.data {
+    width: 335px;
+    height: 528px;
+  }
+  .backdrop.datar {
+    width: 335px;
+    height: 636px;
+  }
+  .backdrop.datap {
+    width: 335px;
+    height: 414px;
+  }
+  .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-  } */
+  }
   .modal {
     overflow-y: scroll;
     width: 100%;
@@ -73,6 +88,7 @@
     flex-direction: column;
     gap: 18px;
   }
+  
   .modal-input {
     display: flex;
     align-items: flex-start;
@@ -88,6 +104,9 @@
   }
   .modal-field {
     
+  }
+  .modal-field.prices {
+    display: none;
   }
   .modal-input::placeholder {
   color: #F7F7F7;
@@ -137,3 +156,81 @@
     border-radius: 32px;
     margin-top: 40px;
   }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      max-width: 734px;
+  }
+  .backdrop.data {
+    width: 628px;
+    height: 476px;
+  }
+  .backdrop.datar {
+    width: 628px;
+    height: 572px;
+  }
+  .backdrop.datap {
+    width: 628px;
+    height: 430px;
+  }
+  .modal-form {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    flex-direction: row;      
+  }
+  /* .modal-field.suite {
+    margin-top: 32px;
+  }
+  .modal-field.prices {
+    margin-top: 32px;
+  } */
+  .modal-field.prices {
+    display: flex;
+  }
+  .modal-field.date {
+    display: none;
+  }
+  .modal-btn-form {
+    line-height: 1.71;    
+  }
+  .button {
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 14px 133px;
+    gap: 10px;
+    position: absolute;
+    width: 399px;
+    height: 52px;
+    left: 115px;
+    top: 318px;
+    display: flex;
+  }
+  
+  /* .container.mini-container {
+      max-width: 734px;
+  } */
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+      max-width: 1406px;
+  }
+  .modal-btn-form {
+    font-size: 18px;
+    line-height: 1.33;    
+  }
+  .button {
+    width: 444px;
+    height: 52px;
+    left: 92px;
+    top: 364px;
+  }
+  /* .container.mini-container {
+      max-width: 1158px;
+  } */
+}
