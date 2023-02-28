@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/jedis_code/assets/open-one-btn-room-abb49383.js"></script>
+    <script type="module" crossorigin src="/jedis_code/assets/open-one-btn-room-19c995c3.js"></script>
     <link rel="stylesheet" href="/jedis_code/assets/open-one-btn-room-6097aca5.css">
   </head>
   <body>
@@ -95,8 +95,8 @@
             </ul>
         </div>
         <ul class="hero-buttons">
-            <li><button class="hero-button first" type="button">book a room</button></li>
-            <li><button class="hero-button" type="button" data-modal-open>book  a table</button></li>
+            <li><button class="hero-button first" type="button" data-modal-room-open-g>book a room</button></li>
+            <li><button class="hero-button" type="button" data-modal-table-open-d>book  a table</button></li>
         </ul>
             
     </div>
@@ -255,7 +255,7 @@
       <div class="hotel-btn-list">
         <ul class="hotel-buttons-desk">
           <li class="hotel-btn-item">
-            <button type="button" class="hotel-btn">Book a room</button>
+            <button type="button" class="hotel-btn" data-modal-room-open-f>Book a room</button>
           </li>
           <li>
             <a href="./page-hotel.html"
@@ -397,9 +397,9 @@
           PRICES PER ROOM
         </button>
     </div> -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal-table>
         <div class="modal">            
-          <button type="button" data-modal-close class="modal-close">
+          <button type="button" data-modal-table-close class="modal-close">
             <svg class="button-x" width="12" height="12">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
@@ -461,9 +461,9 @@
           <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
         </div>
     </div>
-    <div class="backdrop is-hidden" datar-modal>
+    <div class="backdrop is-hidden" data-modal-room>
         <div class="modal">            
-          <button type="button" datar-modal-close class="modal-close">
+          <button type="button" data-modal-room-close class="modal-close">
             <svg class="button-x" width="12" height="12">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
@@ -535,9 +535,9 @@
           <div><button type="submit" class="modal-btn-form button">MAKE A RESERVATION</button></div>
         </div>
     </div>
-    <div class="backdrop is-hidden datap" datap-modal>
+    <div class="backdrop is-hidden datap" data-modal-prices>
         <div class="modal">            
-          <button type="button" datap-modal-close class="modal-close">
+          <button type="button" data-modal-prices-close class="modal-close">
             <svg class="button-x" width="12" height="12">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
