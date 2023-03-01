@@ -61,7 +61,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   
   .hero-title {
     padding-top: 507px;
-    width: 283px;
+    max-width: 283px;
     font-size: 80px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -96,7 +96,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .hero-buttons {
     position: absolute;
     display: flex;
-    left: 43px;
+    left: 12%;
+    right: 9%;
   top: 610px;
   }
   .hero-button {
