@@ -6,7 +6,7 @@
     openThirdModalBtn: document.querySelector('[data-modal-prices-open-b]'),
     openFourthModalBtn: document.querySelector('[data-modal-prices-open-c]'),
     //========
-    closeModalBtn: document.querySelector('[data-modal-close]'),
+    closeModalBtn: document.querySelector('[data-modal-prices-close]'),
     modal: document.querySelector('[data-modal-prices]'),
     body: document.querySelector('body'),
   };

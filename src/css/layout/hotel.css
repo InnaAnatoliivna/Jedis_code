@@ -68,32 +68,32 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   color: #121212;
 }
 
+@media screen and (max-width: 767px) {
+  .hotel-images-item.mob {
+    display: none;
+  }
+
+  .hotel-images-tab {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hotel-images-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hotel-bedroom-pic {
+    margin-bottom: 27px;
+  }
+}
+
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
   .container {
     max-width: 365px;
-  }
-
-  @media screen and (max-width: 767px) {
-    .hotel-images-item.mob {
-      display: none;
-    }
-
-    .hotel-images-tab {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-
-    .hotel-images-item {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 40px;
-    }
-
-    .hotel-bedroom-pic {
-      margin-bottom: 27px;
-    }
   }
 }
 
@@ -136,9 +136,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     flex-direction: column;
     gap: 16px;
   }
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
