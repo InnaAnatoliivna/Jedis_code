@@ -35,7 +35,7 @@
   color: #f7f7f7;
 
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1135px) {
   .nav-list{
    display: none;
   }
