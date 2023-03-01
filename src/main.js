@@ -1,6 +1,5 @@
 import './swiper';
 import './mobile-menu';
-import './hero-swiper';
 //--pages js
 import './modal-js/main-two-btn-room';
 import './modal-js/main-two-btn-table';
