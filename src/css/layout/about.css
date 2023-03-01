@@ -7,7 +7,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* base style before screen 375px */
 
 .about-hotel {
-  /* padding-top: 64px; */
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
@@ -152,7 +152,7 @@ left:123px; */
     } */
 
   .about-hotel {
-    /* padding-top: 80px; */
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -228,13 +228,13 @@ left:123px; */
     } */
 
   .about-hotel {
-    /* padding-top: 100px; */
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 
   .about-hotel-container {
     display: flex;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 
   .box-pictures-about {
@@ -256,6 +256,8 @@ left:123px; */
   .about-hotel-container-mini {
     display: flex;
     flex-direction: row-reverse;
+
+    padding-top: 100px;
   }
 
   .buisnes-image-list {
