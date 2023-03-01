@@ -34,7 +34,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .hero-container {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
-    url(../img/bg-img-mobile.png);
+    url(./img/bg-img-mobile.png);
   background-repeat: no-repeat;
   background-position: 50% 25%;
   position: relative;
@@ -44,7 +44,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   (min-resolution: 2dppx) {
   .hero-container {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
-      url(../img/tablet-bgimg-hero-2x.jpg);
+      url(./img/tablet-bgimg-hero-2x.jpg);
     background-repeat: no-repeat;
     background-position: 50% 25%;
     position: relative;
@@ -137,7 +137,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
   .hero-container {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
-      url(../img/bg-img-tablet.png);
+      url(./img/bg-img-tablet.png);
     background-repeat: no-repeat;
     background-position: 50% 43%;
     position: relative;
@@ -152,7 +152,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
           rgba(0, 0, 0, 0) 70.73%,
           #121212 98.51%
         ),
-        url(../img/tablet-bgimg-hero-2x.jpg);
+        url(./img/tablet-bgimg-hero-2x.jpg);
       background-repeat: no-repeat;
       background-position: 50% 43%;
       position: relative;
@@ -183,7 +183,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   }
   .hero-container {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
-      url(../img/bg-img-desctop.png);
+      url(./img/bg-img-desctop.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
     position: relative;
@@ -198,7 +198,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
           rgba(0, 0, 0, 0) 70.73%,
           #121212 98.51%
         ),
-        url(../img/desktop-bgimg-hero2x.jpg);
+        url(./img/desktop-bgimg-hero2x.jpg);
       background-repeat: no-repeat;
       background-position: 100% 0%;
       position: relative;
