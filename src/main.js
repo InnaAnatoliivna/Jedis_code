@@ -1,6 +1,6 @@
 import './swiper';
 import './mobile-menu';
-//--pages js
+
 import './modal-js/main-two-btn-room';
 import './modal-js/main-two-btn-table';
 import './modal-js/page-hotel-js/hotel-four-btn-prices';
