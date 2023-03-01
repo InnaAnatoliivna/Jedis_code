@@ -61,8 +61,7 @@
   justify-content: center;
 }
 .modal-title {
-  font-family: 'DM Sans';
-  font-weight: 500;
+font-family: 'DMSans-Medium-500', sans-serif;
   font-size: 28px;
   line-height: 1.36;
   letter-spacing: -0.02em;
@@ -72,8 +71,7 @@
   margin-bottom: 40px;
 }
 .modal-input-title {
-  font-family: 'DM Sans';
-  font-weight: 500;
+font-family: 'DMSans-Medium-500', sans-serif;
   font-size: 16px;
   line-height: 1.13;
   letter-spacing: -0.02em;
@@ -108,11 +106,11 @@
 .modal-input::placeholder {
   color: #f7f7f7;
   background-color: #121212;
+  font-family: 'DMSans-Medium-500', sans-serif;
 }
 .modal-input-text {
   position: absolute;
-  font-family: 'DM Sans';
-  font-weight: 500;
+font-family: 'DMSans-Medium-500', sans-serif;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -121,8 +119,7 @@
   font-style: normal;
 }
 .modal-text {
-  font-family: 'DM Sans';
-  font-weight: 400;
+  font-family: 'DM Sans-400', sans-serif;
   font-size: 8px;
   line-height: 1.5;
   letter-spacing: 0.18em;
