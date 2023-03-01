@@ -1,32 +1,121 @@
 /* about */
 
+.about-kitchen {
+    padding-bottom: 64px;
+}
 
+.about-kitchen-img-wrap {
+    height: 637px;
+    position: relative;
+}
+.kitchen-list-img {
+  
+}
+.kitchen-item-1 {
+  position: absolute;
+  max-width: 335px;
+  height: 443px;
+  left: 0px;
+  top: 0px;
+}
+.kitchen-item-2 {
+  position: absolute;
+  max-width: 158px;
+  height: 149px;
+  left: 0px;
+  top: 463px;
+}
+.kitchen-item-3 {
+  position: absolute;
+  max-width: 157px;
+  height: 149px;
+  left: 178px;
+  top: 463px;
+}
+.about-kitchen-text-wrap {
+}
 
+.kitchen-list {
+}
 
+.kitchent-text-item:not(:last-child) {
+  margin-bottom: 24px;
+}
 
+.kitchen-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
 
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-    .container {
-        max-width: 365px;
-    }
+  .container {
+    max-width: 365px;
+    padding: 0 15px;
+        margin: 0 auto;
+        outline: 1px solid red;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 734px;
-    }
-    /* .container.mini-container {
+  .container {
+    max-width: 734px;
+  }
+
+  .about-kitchen {
+    padding-bottom: 80px;
+}
+
+.about-kitchen-img-wrap {
+    height: 515px;
+    margin-bottom: 40px;
+}
+
+.kitchen-item-1{
+    max-width: 388px;
+height: 515px;
+left: 316px;
+}
+
+.about-kitchen-wrap{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+}
+
+.kitchen-item-2{
+    max-width: 284px;
+    height: 296px;
+    position: static;
+}
+
+.kitchen-item-3{
+    max-width: 284px;
+height: 203px;
+position: static;
+}
+
+.about-kitchen-text-wrap{
+    
+}
+
+  /* .container.mini-container {
         max-width: 734px;
     } */
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1406px;
-    }
-    /* .container.mini-container {
+  .container {
+    max-width: 1406px;
+  }
+  /* .container.mini-container {
         max-width: 1158px;
     } */
 }
