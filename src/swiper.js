@@ -9,8 +9,10 @@ $('.swiper').slick({
   autoplay: true,
   autoplaySpeed: 2000,
   variableWidth: true,
-//   prevArrow: $('.arrow-left'),
-//   nextArrow: $('.arrow-right'),
+//   prevArrow: '<i class="arrow-left"></i>',
+//   nextArrow: '<i class="arrow-right"></i>',
+  prevArrow: $(".arrow-left"),
+  nextArrow: $(".arrow-right"),
   responsive: [
     {
       breakpoint: 1024,

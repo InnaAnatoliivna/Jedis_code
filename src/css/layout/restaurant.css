@@ -81,41 +81,52 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     border-radius: 32px;
     height: 42px;
 }
-/* .arrow-left{
-    background: #000;
-} */
-/* .photo-about-rest:not(:last-child) {
-    /* height:  309px;
-    width: 266px; 
-    margin-right: 32px;  
-} */
-.swiper .swiper-item{
-    padding-right: 32px;
-}
-.arrow-about {
+ .arrow-about {
     display: flex;
     gap: 32px;
     margin-top: 51px;
     align-items: center;
     justify-content: center;
 }
-.link-arrow-left {
+.arrow-left{
     height: 36px;
     width: 36px;
-    border: 1px solid black;
-        
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+} 
+.arrow-right{
+    height: 36px;
+    width: 36px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
 
 }
-.link-arrow-right{
-    height: 36px;
-    width: 36px;
-    border: 1px solid black;    
+.arrow-left-icon{
+    stroke: #1212124D;
+
 }
-.arrow-left-icon {
-    color: aqua;
+.arrow-right-icon{
+    stroke: #1212124D;
 }
-.arrow-right-icon {
+
+.photo-about-rest:not(:last-child) {
+    height:  309px;
+    width: 266px; 
+    margin-right: 32px;  
+} 
+.swiper .swiper-item{
+    padding-right: 32px;
 }
+
+
 
 
 /* =================== ADAPTIVE ===================== */
