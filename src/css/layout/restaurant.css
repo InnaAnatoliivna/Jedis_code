@@ -61,6 +61,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     border: 0.8px solid #121212;
     border-radius: 32px;
     height: 42px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-menu {
     font-family: 'DM Sans',sans-serif;
@@ -80,7 +82,19 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     border: 0.8px solid #121212;
     border-radius: 32px;
     height: 42px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-menu:is(:hover,:focus){
+    color:#F6F6F6;
+    background-color:#121212;
+}
+.btn-book-table:is(:hover,:focus){
+    color:#F6F6F6;
+    background-color:#121212;
+}
+
+
  .arrow-about {
     display: flex;
     gap: 32px;
@@ -97,6 +111,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     align-items: center;
     justify-content: center;
     border: none;
+    
 } 
 .arrow-right{
     height: 36px;
@@ -111,12 +126,20 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 .arrow-left-icon{
     stroke: #1212124D;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .arrow-right-icon{
     stroke: #1212124D;
-}
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.arrow-left-icon:is(:hover, :focus){
+    stroke: #121212;
+} 
+.arrow-right-icon:is(:hover, :focus){
+    stroke: #121212;
+}
 .photo-about-rest:not(:last-child) {
     height:  309px;
     width: 266px; 
