@@ -132,6 +132,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   align-items: center;
 }
 
+.sm-link-header{
+  padding: 24px 8px;
+}
+
 .up-logo {
   font-weight: 500;
   font-size: 14px;
@@ -181,7 +185,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .sm-list .item {
-  margin-right: 14px;
+  
 }
 
 .sm-list .item:last-child {
@@ -244,7 +248,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     display: none;
   }
   .sm-list .item {
-    margin-right: 16px;
+    
   }
 
   .navigation {
@@ -382,7 +386,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     display: none;
   }
   .menu-logo {
-    margin-left: 0;
+    margin-left: 246px;
   }
 }
 

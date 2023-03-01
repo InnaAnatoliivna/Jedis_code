@@ -22,6 +22,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   } */
 
 .hero-container {
+  padding-bottom: 40px;
+  padding-top: 507px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
     url(../img/bg-img-mobile.png);
   background-repeat: no-repeat;
@@ -39,10 +41,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     position: relative;
     background-size: 335px;
   }
+
+
 }
 
 .hero-title {
-  padding-top: 507px;
+  
   max-width: 283px;
   font-size: 80px;
   line-height: 1;
@@ -59,11 +63,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   padding-top: 124px;
 }
 .text-list-item:first-child {
-  padding-bottom: 32px;
+ 
 }
 
 .text-list-item:last-child {
-  padding-bottom: 40px;
+  
 }
 
 .hero-text {
@@ -110,7 +114,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 @media screen and (min-width: 768px) {
   .text-list-item:first-child {
-    padding-bottom: 38px;
+   
   }
   .hero-title {
     width: 530px;
@@ -121,10 +125,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     text-transform: uppercase;
     margin-left: 80px;
     margin-right: 0;
-    padding-top: 606px;
+    
   }
 
   .hero-container {
+    padding-bottom: 38px;
+    padding-top: 606px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
       url(../img/bg-img-tablet.png);
     background-repeat: no-repeat;
@@ -168,14 +174,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 @media screen and (min-width: 1440px) {
   .text-list-item:first-child {
-    padding-bottom: 48px;
+    
   }
   .hero-container {
+    padding-top: 274px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
       url(../img/bg-img-desctop.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
     position: relative;
+    padding-bottom: 48px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -203,7 +211,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     text-transform: uppercase;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 274px;
+    
   }
 
   .hero-text-list {
