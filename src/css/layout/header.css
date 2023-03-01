@@ -71,8 +71,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 /*-------------*/
 .navigation .item {
-  padding-right: 32px;
+  margin-right: 32px;
 }
+
+
+
 
 .navigation .item:last-child {
   padding-right: 0;
