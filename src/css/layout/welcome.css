@@ -4,16 +4,10 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
-.welcome {
-  padding-bottom: 100px;
-}
-
 .welcome-italic {
   font-style: italic;
 }
 .welcome-about-container {
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 375px;
 }
 .welcome-text {
@@ -78,7 +72,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   }
   .welcome-img {
     width: 704px;
-    padding-bottom: 80px;
   }
   .welcome-text {
     font-size: 36px;
@@ -86,9 +79,17 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     width: 434px;
     padding-bottom: 50px;
   }
+  .welcome-about-container {
+  max-width: 768px;
+  padding-bottom: 80px;
+}
 }
 
 @media screen and (min-width: 1440px) {
+  .welcome-about-container {
+  max-width: 1440px;
+  padding-bottom: 100px;
+}
   .welcome-first {
     padding-top: 310px;
     padding-bottom: 24px;
@@ -114,4 +115,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .welcome-container {
     width: 437px;
   }
+  .welcome-img {
+    padding-bottom: 0;
+  }
+.welcome-text{
+  padding: 0;
+}
 }
