@@ -7,9 +7,7 @@
   padding-bottom: 100px;
 }
 .head-title {
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'DMSans-Bold-700', sans-serif;
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -28,9 +26,7 @@
 }
 
 .section-title {
-  font-family: 'DM Sans', sans-serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'DMSans-BoldItalic-700', sans-serif;
   font-size: 24px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -44,9 +40,7 @@
   display: flex;
 }
 .name-meals {
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  font-family: 'DMSans-Medium-500', sans-serif;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -55,9 +49,7 @@
   margin-top: 8px;
 }
 .weight {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'DM Sans-400', sans-serif;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -66,9 +58,7 @@
   margin-top: 8px;
 }
 .content {
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'DM Sans-400', sans-serif;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.18em;
@@ -78,9 +68,7 @@
   margin-bottom: 8px;
 }
 .price {
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'DMSans-Bold-700', sans-serif;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -100,9 +88,7 @@
 .btn-book-menu {
   border: 0.8px solid #f7f7f7;
   border-radius: 32px;
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'DM Sans-400', sans-serif;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -121,9 +107,6 @@
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
   /* .box{
         width: 335px;
     }
@@ -161,21 +144,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
   .sectio-menu {
   }
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
-}
+/* @media screen and (min-width: 1440px) {
+} */
