@@ -196,6 +196,7 @@ line-height: 1;
     .hero-hotel-text{
         width: 338px;
         margin-top: -28px;
+        padding-bottom: 120px;
     }
     
 }
@@ -240,6 +241,7 @@ padding: 9px 24px;
 
       .hero-hotel-text{
         padding-top: 204px;
+        padding-bottom: 148px;
       }
 
       .arrows-list{
