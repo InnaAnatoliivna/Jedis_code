@@ -4,16 +4,15 @@
 функція розподілу часу - 
 cubic-bezier(0.4, 0, 0.2, 1). */
 
-.welcome-italic{
-font-style: italic;
+.welcome-italic {
+  font-style: italic;
 }
-.welcome-about-container{
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 375px;
+.welcome-about-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 375px;
 }
 .welcome-text {
-  font-family: 'DM Sans';
   font-weight: 500;
   font-size: 32px;
   line-height: 1.12;
@@ -28,15 +27,13 @@ font-style: italic;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  text-align: justify;
 }
 .welcome-first {
   padding-bottom: 32px;
-  width: 306px;
+  text-align: justify;
 }
 .welcome-second {
   padding-bottom: 32px;
-  width: 335px;
 }
 .welcome-img {
   padding-bottom: 64px;
@@ -50,9 +47,15 @@ font-style: italic;
 
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 375px;
+    max-width: 365px;
   }
   .welcome-img {
+    width: 335px;
+  }
+  .welcome-first {
+    width: 306px;
+  }
+  .welcome-second {
     width: 335px;
   }
 }
@@ -71,12 +74,22 @@ font-style: italic;
     padding: 0;
     padding-bottom: 29px;
   }
-  
+  .welcome-first {
+    padding: 0;
+  }
   .welcome-second {
     width: 366px;
+    padding: 0;
   }
   .welcome-img {
     width: 704px;
+    padding-bottom: 80px;
+  }
+  .welcome-text {
+    font-size: 36px;
+    line-height: 1.11;
+    width: 434px;
+    padding-bottom: 50px;
   }
 }
 
@@ -94,10 +107,10 @@ font-style: italic;
     width: 437px;
   }
   .welcome-paragraf-text {
-gap: 0px;
-padding: 0;
-}
-  .welcome-desktop-container{
+    gap: 0px;
+    padding: 0;
+  }
+  .welcome-desktop-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
@@ -108,19 +121,7 @@ padding: 0;
   }
   .welcome-container {
     width: 437px;
-
   }
-  .welcome-text{width: 434px;
-    width: 434px;
-height: 120px;
-font-size: 36px;
-line-height: 1.11;
-text-transform: uppercase;
-
-
-}
-
-
 
   /* .container.mini-container {
         max-width: 1158px;

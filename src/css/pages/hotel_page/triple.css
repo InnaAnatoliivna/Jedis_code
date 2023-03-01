@@ -34,9 +34,17 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   left: 179px;
 }
  
+.triple-info-text {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 
 .triple-button-list {
     display: flex;
+}
+
+.triple-button-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 .triple-button-link {
@@ -46,11 +54,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     font-size: 14px;
     line-height: 1.28;
     border: 0.8px solid #121212;
-    padding: 8px 18px;
+    padding: 8px 13px;
     border-radius: 32px;
     
     height: 34px;
-    margin-right: 10px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     background-color: #F7F7F7;
@@ -73,13 +80,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     background-color: #F7F7F7;
 
     height: 34px;
-    padding: 8px 18px;
+    padding: 8px 13px;
     border: 0.8px solid #121212;
     border-radius: 32px;
     
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.triple-button-link {
+    width: 128px;
+}
+
+.triple-button {
+    width: 117px;
 }
 
 .triple-button:hover,
@@ -90,10 +105,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
  color: #F6F6F6;
 }
 
-.triple-button:not(:last-child) {
-     margin-right: 14px;
+.triple-button-item:not(:last-child) {
+     margin-right: 12px;
 }
 
+.tripple-text-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.tripple-text-item:last-child {
+    /* width: 361px; */
+}
+
+.tripple-text-item:first-child {
+    /* width: 350px; */
+}
 
 .title-triple {
     font-weight: 700;
@@ -107,8 +133,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 
-
-
 .text-triple {
     font-weight: 400;
     font-size: 14px;
@@ -116,11 +140,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     letter-spacing: -0.02em;
     color: #121212;
     text-transform: uppercase;
+    /* margin-right: -2.9px;
+    margin-right: -15px; */
 }
 
-.text-triple:not(:last-child) {
-    margin-bottom: 24px;
-}
 
 
 
@@ -135,13 +158,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     }
 }
 
-
-@media screen and (max-width: 767px) {
-    .tripple-text-div:not(:last-child) {
-        margin-bottom: 24px
-    } 
-}
-
 @media screen and (min-width: 375px) {
     .container {
         max-width: 365px;
@@ -154,6 +170,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 734px;
+    }
+
+    .triple {
+        padding-bottom: 80px;
     }
 
     .triple-photos {
@@ -181,9 +201,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         left: 363px;
     } 
 
-    .triple-info-text {
-        display: flex;
-        flex-wrap: wrap-reverse;
+    .triple-text-info {
+        width: 704px;
+    }
+
+    .tripple-text-item:first-child {
+        width: 340px;
+     }
+
+    .tripple-text-item:last-child {
+       width: 310px;
     }
 
     .title-triple {
@@ -198,12 +225,23 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         }
 
      .triple-button-link, .triple-button {
-        font-size: 18px;
-        align-items: center;
+        /* align-items: center; */
         height: 40px;
-        padding: 8px 24px;
+        padding: 8px 18px;
+        line-height: 1.7;
         }
 
+        .triple-button-link {
+            width: 140px;
+        }
+    
+        .triple-button {
+            width: 129px;
+        }
+
+        .tripple-text-item:not(:last-child) {
+            margin-right: 32px;
+        }
 
     .text-triple {
         font-weight: 400;
@@ -232,6 +270,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         max-width: 1406px;
     }
 
+    .triple {
+        padding-bottom: 100px;
+    }
+
     .triple-button-list {
         margin-top: 0;
     }
@@ -240,6 +282,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     
     .triple-photos {
         height: 762px;
+        margin-bottom: 50px;
     }
 
     .triple-item-1 {
@@ -269,17 +312,36 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         width: 1376px;
     }
 
-    .triple-button {
+    .triple-button-link, .triple-button {
+
         font-size: 18px;
-        width: 166px;
+        line-height: 1.3;
         height: 42px;
-        padding: 9px 24px;
+        padding: 9px 17px;
+    }
+
+    .triple-button-link {
+        width: 166px;
+    }
+
+    .triple-button {
+        width: 152px;
     }
 
     .triple-text-info {
         width: 686px;
         margin-left: auto;
     }
+
+    .tripple-text-item:not(:last-child) {
+        
+        width: 345px;
+        margin-right: 32px;
+    }
+    
+   .tripple-text-item:not(:first-child) {
+    width: 310px;
+   }
     
     /* .container.mini-container {
         max-width: 1158px;

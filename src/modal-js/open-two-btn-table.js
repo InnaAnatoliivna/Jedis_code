@@ -2,7 +2,7 @@
     const refs = {
         openModalBtn: document.querySelector('[data-modal-table-open-d]'),
         //====
-        openOtherBtn: document.querySelector('[data-modal-table-open-s]')
+        openOtherBtn: document.querySelector('[data-modal-table-open-s]'),
         //====
         closeModalBtn: document.querySelector('[data-modal-table-close]'),
         modal: document.querySelector('[data-modal-table]'),
@@ -12,7 +12,7 @@
     refs.openModalBtn.addEventListener('click', toggleModal);
     refs.closeModalBtn.addEventListener('click', toggleModal);
     //===
-    refs.openOtherBtn.addEventListener('click', toggleOther);
+    refs.openOtherBtn.addEventListener('click', toggleModal);
     //===
 
     function toggleModal() {

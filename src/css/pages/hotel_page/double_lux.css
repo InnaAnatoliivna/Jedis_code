@@ -17,16 +17,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     column-gap: 19px;
 }
 
-.double-lux-title {
-    font-size: 32px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
-    max-width: 264px;
-    margin-bottom: 32px;
-}
-
 .double-lux-text-item {
     margin-bottom: 28px;
 }
@@ -38,6 +28,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .double-lux-text-item:not(:first-child) {
     margin-bottom: 28px;
 }
+
+.double-lux-title {
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    max-width: 264px;
+    margin-bottom: 32px;
+  }
 
 .double-lux-btn-list {
     display: flex;
@@ -82,9 +82,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     text-transform: uppercase;
     color: #121212;
     background-color: #F7F7F7;
-    padding: 8px 18px;
+    padding: 8px 13px;
     gap: 10px;
-    width: 128px;
+    width: 117px;
     height: 34px;
     border: 0.8px solid #121212;
     border-radius: 32px;
@@ -98,69 +98,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .double-lux-btn:focus,
 .double-lux-btn-link:hover,
 .double-lux-btn-link:focus {
-    background-color: #121212;
-    color: #F6F6F6;
-}
-
-.double-lux-list {
-    margin-bottom: 32px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.double-lux-title {
-  font-size: 32px;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #121212;
-  max-width: 264px;
-  margin-bottom: 32px;
-}
-
-.double-lux-text-item {
-    margin-bottom: 28px;
-}
-
-.double-lux-text-item:not(:last-child) {
-    margin-bottom: 24px;
-}
-
-.double-lux-text-item:not(:first-child) {
-    margin-bottom: 28px;
-}
-
-.double-lux-btn-list {
-    display: flex;
-    gap: 12px;
-}
-
-.double-lux-text {
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
-}
-
-.double-lux-btn {
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
-    padding: 8px 18px;
-    gap: 10px;
-    max-width: 128px;
-    height: 34px;
-    border: 0.8px solid #121212;
-    border-radius: 32px;
-    background-color: transparent;
-}
-
-.double-lux-btn:hover,
-.double-lux-btn:focus {
     background-color: #121212;
     color: #F6F6F6;
 }
@@ -208,9 +145,62 @@ cubic-bezier(0.4, 0, 0.2, 1). */
         position: absolute;
     }
 
+    .double-lux-title {
+        min-width: 468px;
+        margin-bottom: 32px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .double-lux-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.33;
+    }
+
+    .double-lux-text-list {
+        margin-left: auto;
+        display: flex;
+        gap: 32px;
+        margin-left: auto;
+    }
+
+    .double-lux-text-item {
+        width: 369px;
+    }
+
+    .double-lux-btn-list {
+        justify-content: flex-end;
+        gap: 14px;
+    }
+
+    .double-lux-btn-link {
+        width: 140px;
+        height: 40px;
+        padding: 8px 19px;
+        line-height: 1.71;
+    }
+
+    .double-lux-btn {
+        width: 129px;
+        height: 40px;
+        padding: 8px 19px;
+        line-height: 1.71; 
+    }
+
     /* .container.mini-container {
         max-width: 734px;
     } */
+
+    .btn-list-wrap {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .double-lux-text-list {
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -238,6 +228,39 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     .item-kitchen {
       position: static;
   }
+
+  .double-text-big-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .double-lux-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .double-lux-btn-list {
+    margin-left: auto;
+  }
+
+  .double-lux-btn {
+    margin-right: 0;
+  }
+
+  .double-lux-btn-link {
+    width: 166px;
+    height: 42px;
+    padding: 9px 24px;
+    line-height: 1.33;
+}
+
+.double-lux-btn {
+    width: 152px;
+    height: 42px;
+    padding: 9px 24px;
+    line-height: 1.33;
+}
     /* .container.mini-container {
         max-width: 1158px;
     } */
