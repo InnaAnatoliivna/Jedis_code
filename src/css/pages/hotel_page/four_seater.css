@@ -117,16 +117,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
       }
 } */
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
 
   .four-seater {
     padding-bottom: 80px;
@@ -190,16 +184,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .four-seater-text {
     width: 500px;
   }
-
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
 
   .four-seater {
     padding-bottom: 100px;
@@ -258,8 +245,4 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .four-seater-button {
     width: 152px;
   }
-
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 }

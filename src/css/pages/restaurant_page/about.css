@@ -52,17 +52,11 @@
 
 /* =================== ADAPTIVE ===================== */
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
-
+  
   .about-kitchen {
     padding-bottom: 80px;
   }
@@ -100,17 +94,7 @@
 
   .about-kitchen-text-wrap {
   }
-
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
-}
+/* @media screen and (min-width: 1440px) {
+} */

@@ -150,16 +150,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   }
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
 
   .triple {
     padding-bottom: 80px;
@@ -240,19 +234,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .triple-text-div {
     display: flex;
   }
-
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
-@media screen and (min-width: 1200px) {
-}
+/* @media screen and (min-width: 1200px) {
+} */
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
 
   .triple {
     padding-bottom: 100px;
@@ -320,8 +307,4 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .tripple-text-item:not(:first-child) {
     width: 310px;
   }
-
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 }

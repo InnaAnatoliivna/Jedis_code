@@ -151,16 +151,10 @@
   margin-top: 40px;
 }
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
   .modal {
     width: 628px;
   }
@@ -225,9 +219,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
   .modal {
     width: 628px;
   }

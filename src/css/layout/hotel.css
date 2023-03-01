@@ -91,17 +91,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 /* =================== ADAPTIVE ===================== */
 
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
-
   .section.hotel {
     padding: 44px 0;
   }
@@ -139,10 +132,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
-
   .section.hotel {
     padding: 44px 0 60px 0;
   }
@@ -178,8 +167,4 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .hotel-images-item {
     gap: 28px;
   }
-
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 }

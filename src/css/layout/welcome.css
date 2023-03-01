@@ -50,9 +50,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
   .welcome-img {
     width: 335px;
   }
@@ -65,12 +62,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
   .welcome-paragraf-text {
     display: flex;
     flex-wrap: wrap;
@@ -98,9 +89,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
   .welcome-first {
     padding-top: 310px;
     padding-bottom: 24px;
@@ -126,8 +114,4 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .welcome-container {
     width: 437px;
   }
-
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 }
