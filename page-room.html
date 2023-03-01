@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- animation liblary -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -87,8 +92,225 @@
     </div>
 </header>
       <main>
-        ENOENT: no such file or directory, open '/home/runner/work/jedis_code/jedis_code/src/partials/pages/Room-Page/hero.html'
-        ENOENT: no such file or directory, open '/home/runner/work/jedis_code/jedis_code/src/partials/pages/Room-Page/amenities.html'
+        <!-- section -->
+<section class="hero-hotel">
+  <div class="container hotel-hero-container">
+    <h1 class="hero-hotel-title animate__animated animate__fadeInDown">
+      DOUBLE<br />
+      LUXURY ROOM
+    </h1>
+    <ul class="hero-buttons-hotel">
+      <li>
+        <button class="hero-button-hotel first" type="button" data-modal-prices-open-l>
+          View prices
+        </button>
+      </li>
+    </ul>
+
+    <ul class="hero-img-list">
+      <li class="hero-img-item">
+        <picture class="hero-img">
+          <source
+            srcset="/jedis_code/assets/sofa-desktop-1x-539-762px-3992d8e8.jpg 1x, /jedis_code/assets/sofa-desktop-2x-539-762px-11cb910a.jpg 2x"
+            type="image/jpeg"
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="/jedis_code/assets/sofa-tablet-1x-331-468px-4da25617.jpg 1x, /jedis_code/assets/sofa-tablet-2x-331-468px-9d4e7de5.jpg 2x"
+            type="image/jpeg"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/jedis_code/assets/sofa-mobile-1x-335-468px-dec1d1e2.jpg 1x, /jedis_code/assets/sofa-mobile-2x-335-468px-5ae10822.jpg 2x"
+            type="image/jpeg"
+            media="(max-width:767px)"
+          />
+          <img
+            srcset=""
+            src="/jedis_code/assets/sofa-mobile-1x-335-468px-dec1d1e2.jpg"
+            alt=""
+          />
+        </picture>
+      </li>
+      <li class="hero-img-item">
+        <picture class="hero-img-cut double-room-cut">
+          <source
+            srcset="/jedis_code/assets/Double-room-cut-desktop-a4f50772.png "
+            type="image/jpeg"
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="/jedis_code/assets/Double-room-cut-tablet-042d1bc9.jpg "
+            type="image/jpeg"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/jedis_code/assets/Double-room-cut-mobile-e07a9d79.jpg "
+            type="image/jpeg"
+            media="(max-width:767px)"
+          />
+          <img src="/jedis_code/assets/Double-room-cut-mobile-e07a9d79.jpg" alt="" />
+        </picture>
+      </li>
+    </ul>
+    <ul class="arrows-list double-arrows">
+      <li class="arrow-item">
+        <img class="arrow-icon" src="/jedis_code/assets/arrow-left-icon-a01f5b53.svg" alt="" />
+      </li>
+      <li class="arrow-item">
+        <img class="arrow-icon" src="/jedis_code/assets/arrow-right-icon-39119c27.svg" alt="" />
+      </li>
+    </ul>
+    <p class="hero-hotel-text double-room-text">
+      The Mimino hotel features spacious and stylish double luxury rooms with
+      modern amenities for a comfortable stay.
+    </p>
+  </div>
+</section>
+
+        <section class="general-amenities">
+  <div class="container general-amenities-container">
+    <h2 class="visually-hidden">Amenities</h2>
+    <ul class="general-amenities-list list">
+      <li class="general-amenities-item">
+        <h3 class="general-amenities-subtitle">
+          General Amenities & Facilities:
+        </h3>
+        <ul class="amenities-list">
+          <li><p class="amenities-text">24-hour front desk service</p></li>
+          <li><p class="amenities-text">Daily housekeeping</p></li>
+          <li><p class="amenities-text">Free Wi-Fi throughout the hotel</p></li>
+          <li><p class="amenities-text">Elevator access</p></li>
+          <li><p class="amenities-text">Luggage storage</p></li>
+          <li><p class="amenities-text">Non-smoking rooms available</p></li>
+          <li>
+            <p class="amenities-text">Meeting rooms for business and events</p>
+          </li>
+          <li><p class="amenities-text">On-site parking (surcharge)</p></li>
+          <li><p class="amenities-text">Concierge services</p></li>
+        </ul>
+      </li>
+      <li class="general-amenities-item">
+        <h3 class="general-amenities-subtitle">Bathroom:</h3>
+        <ul class="amenities-list">
+          <li><p class="amenities-text">Private bathroom with shower</p></li>
+          <li><p class="amenities-text">Complimentary toiletries</p></li>
+          <li><p class="amenities-text">Hair dryer</p></li>
+          <li><p class="amenities-text">Fresh towels daily</p></li>
+          <li>
+            <p class="amenities-text">
+              Deluxe bathrobes (in some room categories)
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="general-amenities-item">
+        <h3 class="general-amenities-subtitle">Bedroom:</h3>
+        <ul class="amenities-list">
+          <li>
+            <p class="amenities-text">
+              Comfortable beds with high-quality linens
+            </p>
+          </li>
+          <li><p class="amenities-text">Blackout curtains</p></li>
+          <li>
+            <p class="amenities-text">
+              Climate control (air conditioning and heating)
+            </p>
+          </li>
+          <li><p class="amenities-text">Safe for valuables</p></li>
+          <li><p class="amenities-text">Writing desk and chair</p></li>
+          <li>
+            <p class="amenities-text">Flat-screen TV with cable channels</p>
+          </li>
+        </ul>
+      </li>
+      <li class="general-amenities-item">
+        <h3 class="general-amenities-subtitle">Kitchen:</h3>
+        <ul class="amenities-list">
+          <li>
+            <p class="amenities-text">
+              In-room kitchenette (in some room categories)
+            </p>
+          </li>
+          <li><p class="amenities-text">Refrigerator</p></li>
+          <li><p class="amenities-text">Microwave</p></li>
+          <li><p class="amenities-text">Electric kettle</p></li>
+          <li><p class="amenities-text">Cooking utensils and cutlery</p></li>
+          <li><p class="amenities-text">Dining table and chairs</p></li>
+        </ul>
+      </li>
+      <li class="general-amenities-item">
+        <h3 class="general-amenities-subtitle">Media:</h3>
+        <ul class="amenities-list">
+          <li>
+            <p class="amenities-text">Flat-screen TV with cable channels</p>
+          </li>
+          <li><p class="amenities-text">High-speed Wi-Fi</p></li>
+          <li><p class="amenities-text">iPod docking station</p></li>
+          <li><p class="amenities-text">Speaker system</p></li>
+          <li>
+            <p class="amenities-text">
+              Electrical outlets for charging devices.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="amenities-images-list">
+      <li class="amenities-images-item amenities-first-img">
+        <picture>
+          <source
+            srcset="/jedis_code/assets/soap2-desktop-1x-439-219px-b7fe7959.jpg 1x, /jedis_code/assets/soap2-desktop-2x-439-219px-6e60d318.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/jedis_code/assets/soap2-tablet-1x-365-182px-fd070239.jpg 1x, /jedis_code/assets/soap2-tablet-2x-365-182px-cd7e95e0.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAGcAzwMBIgACEQEDEQH/xAAzAAABBQEBAQAAAAAAAAAAAAAGAgMEBQcAAQgBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/aAAwDAQACEAMQAAAAYrhZzze6rNwc0YkBYHGDzShaOjmaz3Qc+Bp9ywzdbTqCoVKyiUuJIZako2rKkkhzeqBdCiyf58k6nl+KJMJ9LEz/ACZsLmYWUil6dAR4VQlSOjlbz3Qc7xqN2wfdqzqSrLGJ31hOflTxsGK5jLZxIilK2fWlZnINbzRGF13dHqE7lc+DUEg0RTsQn2e6CMhC0dPG2DnActga7on4erPo7SmyWOvZFpz8U3xjqckxMRA01iPWhrHMrURJsqmNEcFbkd1WhXNNOlco0vJNZU+IWjp5EBZpXg5c3Pq4esoeIGq8Pp3FMWjCejjZQrViE3YwFq95Hlj8xDaF1k/mcfiPhI8yFJne61jItZR3/PfOniQiLWSqFDswRa+0WQ1Niho41V9ECVHqSuVRTB/mtn8TTlOMgg7ahhg7e8xDsvfivsErbQlSHVMi1aVWa0o5+cReJKiVMyFdGdzUjtj4jmF8BuUkfoHW3QGehJR72eKLBNZIH22hvZt7sMP93XzoY7le41jujaz97r8vvdx0SB3K1dW9yNX1fcrRFd06yFd2yVdxVb/cGU13I3//xABBEAABBAEBAwcICAQGAwAAAAABAAIDBBEFBhIhEyIxMlFhcRAUQWJyc4GxBxUkNUJDkdEjM1KCIERjkpPBobLC/9oACAEBAAE/ABVq8ByoBVySOtMIc53gtSP2nPrLTpSa7PZVCT7XAPWR8hTltr16/uXr6Nfviz7pYVRo+upT/phFqIRCIKLcqeLsCfE8P6qHQtratmaH+GCUGvYQHtIPei7gieaVUHBarNZv3Q+o17GhPFqOWvy5JctS/mg960sE1Y/AKkCLlfP9YRRRTltr1q3upF9Gv3zY915Kn31J7seUorCeAE8sUm6pYo5GkOAK1PQqszHEMGVchNed0RPQUTzSqsmAq7JYyN0hTRukcJHniFqfXHitIdmozwUDZvPqxB4cqz5ooopy226avupF9G33zP7ryV3butP74wi5ElFyfLhGzhPsgp78lOciVL6QtoObfcj1VAcAqJwUr+BWo53ge9aS8+bMVWQi3X4/ms+aKKKK26OBS9iX/pfRv99S+68m01y/QuwWqr2tHFp3gCq222stYXy0YpGDALm5CqbdMszwQOoljpHtZnf7VJa706wSjJlFxQenEIuUjxxKuRMu6uY8gY6crUqkFYFgLSq3HKhkwnycFqBytHePNm5UDmieE4/G35oooorbBm+Kg3WHDZHEu7AWhU57FCblapZC/oLmYUe1evs6bufFjFZ1q7qLeRuSAtJ3shoBGAuQma17xcHJjpw4f/BctFlkfrNRrnhzWSB2QSejvKE2+MrlEXFNdkIuwg/gpJQFM/ETnE+hRvlfq0hidxWpl4c4yOBKrOUbyMIvJV7qlaMW+bNUWBKw+sEUUUVtK3fuaZEeiRlln6sGFH9XmNrp7D2SYGWNHp3iD6FJW03kpXR6iS8A7ocwtzjGFo1UyxWnE7pFZz84zjJACc5xDxiLdGetgEnwC2ea363gwRjBzw4ZDSmSNaQE9wHELlFy26nzghNmBaeKtXooTznLUdblla6OJM84gmdNnBKtXJZHHeKZK5qYVvFXDlhWjuPIpjnBzc9qPkKK2oeY72gP9AtcfAlquwUYbEkctYlzZCMidoznj0FWYNNEe61tkPdzWEPjcC7vwodch0112J0bnctC2NpacYDUbse+S2UjPa3JWj36MV0PktYBHXcN3iQobtGRzS23G8doOQo7VJoJke146AA5GxXxkVI8dvKu/ZCxXPTUi/5T+yeaZjf9nDTunBDyVb1NsAduOypZrNuTecThSPhrs4nJU9l8r+HQuQ3uKFUphyuIVvqFabJIyPmqOeR44nCByAiiir2n1brWCxEH7h3mcSMH4LaBtn6ycY44nNc8OHBuclATNle+TT2tbG0uL91wHd0FVtnrOpV/OopYxzi3Dx2KTZTU2Z/hwP8AB2P2Wi7CaXJUgmuxyGVwy5m/hgUezGgsh5IaZWLe9gJ/UqfYrRX5MMc1Zx/FDK4K1sRqkOX0NckPqTI6nrcby0zAkHBbhnoTdqNbjbumNmMY4tKGtw/m6aCe6RwQ1nTnDnQzx9zHNd81JJpM7s+dzs7ns3v/AFRr0XkCLUYx7bHNTKO91btVx7BIhpl8dEbT3h7SmFEq1xjWlOxGt8diiOYoz2sHkKITgtopq5uBpeC5jmtIw3IwAMcR3IzxGGdwc3ekcA7LGjAHZhbNxhui1fW3nfqVM0EuPaoI3OqQhri0hv8A0Qt22wjdkzw4hw9KLnckwu4E4ynBTaBpskkhMBBLjxD3J2ytNx5k0zPiCn7JyHqXfg5ik2Tv/hfA79QpNmtTb/lAfZeFJo11md6lOPBpKfUezrNe32gQuRcOIemnoQKtfyytMG8wotcqpzVrntib8vI5zWglxACm1KFnBgLz+gU1uzMevujsbwW1sjRdjY/p3GnPxOU3+WSeje4LR9Ukg0qm3kWuAjHpwjrsX44HjwIK06dk1OCRuQHNyqlHUItYlsC619Z5cSwudvcegbvcpup/c35rKLByj/aKawLkwuSRhHYjAEYO5SadUkPPrRO8WAphTTxVkjcK0tyLuHSqDt6jUPbCz5JztUjfJhhe3eON0tPD44Us8uczQzg9pYcD4jITZ4HnAkbnsKHcQStptNv2LYlEJLA3gQ0p0FhsW4RjB7Vp73eZwMz0MATw/K0O1WfQrQumaJA0gtJwUGA445HeFISYud/U35olWL1uO3YDLDwBK/5qLWr7fzGnxCj2gsjrQsKj2iZ+Ou74HKZrtI9ZsjfEJurac/8APA8eCZbqSdWeM/3Bcw9BCaeCB4KbBjctPPSsnC0o50yl7hnyWfJJDDKMSRsf7QBWqU6sNGxLFEGOYzILMt/8BR6hYaOExPiAn6gZG4lbHIPWb++U2zTAGa0Y9kbvyRlovPVI8Hfuob9BsLYXsJa3twVHPSac17k1c+o47v8AtOQmavJuYM8EwyPTuFSzX7GftIjZ2RD5k5U1d5nlyCee7ifFCHC5IgoNcFz1vHjkLI9IQfjquI8CmFA8FLxYVRcQ4rfK0Z2dKpe6H+GSnUk69eJ3eWgqTQ9Mk6a4B9UkKXZim7iyaVvxBUuy035dtp9ppCk2c1Nmd0Rv9l374U9W5VLuVZu47wVy7023K3iCR4FM1Kcfmu+PFfWj8cWsd/bhfWseOdXb8CU3VKh60Tx4HKF6i78bx4tTeRkHMkB+BCNc9idER0hf/8QAKBEAAgECBAYCAwEAAAAAAAAAAAECAxEQEjEyBBMhUWGBQXEiM0JS/9oACAECAQE/AIKV43lr8FfbE4bbL7wWuEdMZRQ0XuVNpZXvYr7InDbZYLXDnRi3F3FUhJdGOY5XGLcSd4liv+tfZwr6T9YSV0/o/O25r2RT63dxOzsXLjZF6jg3HCsrw9nDK2f1iyHLyxu+py4eTL5Mku6OXNEYW1Q3NYVdhw+ssJVYLyKlminmG1doWiGKc/8ATFVn3OdPsjn944VFeDKCs2Sop/3IlQkk2ppkeInFJON7Gfq3lZGsvlDrwLouZmZvAyWxlLc8Wk9UOEew4RMq7GVGREo2Ez//xAAnEQABAwMCBgMBAQAAAAAAAAABAAIRAwQSECEiMTJRYXETQYEzQv/aAAgBAwEBPwB0QYarfm9XXW31qU7nq1yBUKieJZGIlW3U9XXUz1qULWpUYHtLTPlVKNSmYe2FigNPpUxxaW3W70rsbs/dKLsajD5CIpZb0gfbFUIa6GgNAH0IVzxFp8aQgEWnZMdi7S3MVD6V2Zw/dBzTTOJnn5VepU+apjylPquceLtClq4UHM7ovnwEGsQVv/X8V3yZo1jihd4bfHMeUZJyjnuu6CLW9lg1fG1fH50oGKoV1u1vtCrH+GoVWkwWkJ1AEkhyw2AlGkfpCk5QsQsQsPKCp9YVx0j3qCe6zd3Qe6VJWRWRQ3RX/9k= 1x, /jedis_code/assets/soap2-mobile-2x-207-103px-81753126.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/jedis_code/assets/soap2-desktop-1x-439-219px-b7fe7959.jpg"
+            alt="Photo of Product Designer"
+            width="439"
+          />
+        </picture>
+      </li>
+      <li class="amenities-images-item amenities-second-img">
+        <picture>
+          <source
+            srcset="/jedis_code/assets/bathroom2-desktop-1x-496-636px-63394b5f.jpg 1x, /jedis_code/assets/bathroom2-desktop-2x-496-636px-714684f1.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/jedis_code/assets/bathroom2-tablet-1x-408-525px-6efc7972.jpg 1x, /jedis_code/assets/bathroom2-tablet-2x-408-525px-1d67edb6.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/jedis_code/assets/bathroom2-mobile-1x-259-333px-ddb07b6e.jpg 1x, /jedis_code/assets/bathroom2-mobile-2x-259-333px-67ff3988.jpg 2x"
+            type="image/jpeg"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/jedis_code/assets/bathroom2-desktop-1x-496-636px-63394b5f.jpg"
+            alt="Photo of Product Designer"
+            width="496"
+          />
+        </picture>
+      </li>
+    </ul>
+    <button class="amenities-btn btn" data-modal-room-open-h type="button">Book a room</button>
+  </div>
+</section>
+
         <div class="backdrop is-hidden data" data-modal-table>
   <div class="modal modal-table">
     <button type="button" data-modal-table-close class="btn modal-close">
