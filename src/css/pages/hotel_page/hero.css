@@ -38,11 +38,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
-.hero-hotel {
 
-
-
-}
 
 .hero-hotel-title {
 padding-top: 118px;
@@ -66,25 +62,30 @@ text-transform: uppercase;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   padding: 8px 18px;
-  border: 0.8px solid #121212;;
+  border: 0.8px solid #121212;
   border-radius: 32px;
   margin-top: 24px;
   margin-left: 12px;
   margin-bottom: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);    ;
+  
 }
+
+.hero-button-hotel:hover , .hero-button-hotel:focus{
+    color: var(--typical-light-color);
+    background-color: var(--typical-dark-color);
+    border:0.8px solid var(--typical-light-color) ;
+}
+
+
 
 .hero-button-hotel.first{
     margin-left: 0;
 }
 
 
-.hero-img-list {
-    
-}
-.hero-img-item:first-child {
-    
 
-}
+
 .hotel-hero-container{
     position: relative;
 }
@@ -126,6 +127,30 @@ padding-bottom: 64px;
 margin-top: 40px;
 }
 
+.hero-restaurant-link-menu{
+    display: block;
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: transparent;
+  color: var(--typical-darc-color);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  margin-top: 24px;
+  margin-left: 12px;
+  margin-bottom: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+
+.hero-restaurant-link-menu:hover, .hero-restaurant-link-menu:focus{
+    color: var(--typical-light-color);
+    background-color: var(--typical-dark-color);
+    border:0.8px solid var(--typical-light-color) ;
+}
+
 @media screen and (min-width:768px) {
 
     .hero-hotel-title{
@@ -141,8 +166,18 @@ line-height: 1;
     padding: 8px 24px;
     }
 
+    .hero-restaurant-link-menu{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        padding: 8px 24px;
+    }
+
     .hero-img{
         width: 436px;
+    }
+    .hero-img.img-hero-restaurant{
+        width: 431px;
     }
     .hero-img-cut {
         width: 264px;
@@ -161,6 +196,7 @@ line-height: 1;
     .hero-hotel-text{
         width: 338px;
         margin-top: -28px;
+        padding-bottom: 120px;
     }
     
 }
@@ -193,12 +229,19 @@ padding-top: 282px;
 line-height: 1.33;
 padding: 9px 24px;
       }
+
+      .hero-restaurant-link-menu{
+        font-size: 18px;
+line-height: 1.33;
+padding: 9px 24px;
+      }
       .hero-button-hotel{
         margin-bottom: 0;
       }
 
       .hero-hotel-text{
         padding-top: 204px;
+        padding-bottom: 148px;
       }
 
       .arrows-list{

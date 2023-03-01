@@ -1,9 +1,10 @@
 
 <section class="welcome">
-  <div class="container">
-     <div class="welcome-container">
-
-    <h2 class="welcome-text">Welcome to the epitome of luxury and comfort</h2>
+  <div class="container welcome-about-container">
+    <div class="welcome-desktop-container">
+    <div class="welcome-container">
+    <h2 class="welcome-text">Welcome to the epitome of <span class="
+      welcome-italic">luxury</span> and <span class="welcome-italic">comfort</span></h2>
       <div class="welcome-paragraf-text">
         <p class="welcome-paragraf welcome-first">
           Our hotel rooms are elegantly designed with an eye for detail,
@@ -21,29 +22,33 @@
     <div class="welcome-picture">
       <picture>
         <source
-          media="(min-width:768px)"
-          srcset="
-            ../img/tablet/welcome-tablet-1x.jpg 1x,
-            ../img/tablet/welcome-tablet-2x.jpg 2x
-          "
-        />
-        <source
           media="(min-width:1440px)"
           srcset="
-            ../img/desktop/welcome-desktop-1x.jpg 1x,
-            ../img/desktop/welcome-desktop-2x.jpg 2x
+            ./img/desktop/welcome-desktop-1x.jpg 1x,
+            ./img/desktop/welcome-desktop-2x.jpg 2x
           "
+          type="image/jpeg"
         />
+        <source
+          media="(min-width:768px)"
+          srcset="
+            ./img/tablet/welcome-tablet-1x.jpg 1x,
+            ./img/tablet/welcome-tablet-2x.jpg 2x
+          "
+          type="image/jpeg"
+        />
+        
         <img
           class="welcome-img"
           srcset="
-            ../img/mobile/welcome-mobile-1x.jpg 1x,
-            ../img/mobile/welcome-mobile-2x.jpg 2x
+            ./img/mobile/welcome-mobile-1x.jpg 1x,
+            ./img/mobile/welcome-mobile-2x.jpg 2x
           "
-          src="../img/mobile/welcome-mobile-1x.jpg"
+          src="./img/mobile/welcome-mobile-1x.jpg"
           alt="room with lights"
         />
       </picture>
+    </div>
     </div>
   </div>
 </section>
