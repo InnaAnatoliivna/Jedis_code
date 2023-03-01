@@ -213,7 +213,7 @@
     width: 399px;
     height: 52px;
     left: 115px;
-    top: 318px;
+    top: 400px;
     display: flex;
   }
 }
@@ -239,12 +239,8 @@
     width: 444px;
     height: 52px;
     left: 92px;
-    top: 364px;
+    top: 400px;
+    padding: 14px 100px;
   }
 
-  .button {
-    width: 444px;
-    padding: 14px 100px;
-    height: 52px;
-  }
 }
