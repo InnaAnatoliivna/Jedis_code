@@ -12,29 +12,44 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 
 
-
 /* =================== ADAPTIVE ===================== */
 
-@media screen and (min-width: 375px) {
-    .container {
-        max-width: 365px;
-    }
+/* @media screen and (min-width: 375px) {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 734px;
-    }
-    /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1406px;
+} */
+
+.hero-img-cut.double-room-cut{
+    width: 69px;
+    left: 296px;
+    top: 296px
+
+}
+
+@media screen and (min-width:768px) {
+    .hero-img-cut.double-room-cut{
+        width: 302px;
+    left: 469px;
+    top: 382px;
     }
-    /* .container.mini-container {
-        max-width: 1158px;
-    } */
+}
+
+@media screen and (min-width:1440px) {
+    .hero-img-cut.double-room-cut{
+    width: 251px;
+    left: 1235px;
+    top: 107px;
+    }
+
+    .arrows-list.double-arrows{
+        top: 705px;
+    }
+
+    .hero-hotel-text.double-room-text{
+        padding-bottom: 48px;
+    }
 }

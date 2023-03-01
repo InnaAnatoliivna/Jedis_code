@@ -103,17 +103,14 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 /* =================== ADAPTIVE ===================== */
 /* mobile */
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-}
+
+/* @media screen and (min-width: 375px) {
+} */
 
 /* tablet */
+
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
+
   .general-amenities {
     padding-top: 80px;
     padding-bottom: 194px;
@@ -146,11 +143,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     line-height: 1.8;
   }
 }
+
 /* desktop */
+
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
+
   .general-amenities {
     padding-top: 94px;
     padding-bottom: 235px;

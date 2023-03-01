@@ -7,17 +7,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* base style before screen 375px */
 
 .about-hotel {
-  /* padding-top: 64px; */
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
-.about-goust-title {
-  position: absolute;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
+/* .about-goust-title {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.about-home-list{
+    
+} */
 
 /* .about-home-list {
 } */
@@ -134,21 +138,13 @@ left:123px; */
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
+
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 
   .about-hotel {
-    /* padding-top: 80px; */
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -216,21 +212,15 @@ left:123px; */
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 
   .about-hotel {
-    /* padding-top: 100px; */
+    padding-top: 100px;
     padding-bottom: 100px;
   }
 
   .about-hotel-container {
     display: flex;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
 
   .box-pictures-about {
@@ -252,6 +242,8 @@ left:123px; */
   .about-hotel-container-mini {
     display: flex;
     flex-direction: row-reverse;
+
+    padding-top: 100px;
   }
 
   .buisnes-image-list {

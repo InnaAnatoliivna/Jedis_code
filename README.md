@@ -1,3 +1,60 @@
+//FIXME: Структура проєкта. 
+
+//TODO: 
+Main Page 
+
+1.Header(загальний для всіх
+сторінок) 
+
+2.Hero Nikita Shepil 
+
+3.About a complex -> Volodymyr Bosenko
+
+4.Restaurant’s details -> Alehandro Olexander597 
+
+5.Welcome to a complex -> Denis
+Лупкін+all images/svg 
+
+6.Hotel’s details -> Den Industries 
+
+7.Location & contacts
+-> Den Industries 
+
+8.Footer(загальний для всіх сторінок) -> ElenaFarina
+
+
+
+//TODO: Restaurant Page
+
+1.Hero -> Nikita Shepil 
+
+2.About a kitchen -> maxineaird (Tetyana Shvayka)
+
+3.Restaurant menu -> Alehandro Olexander597
+
+
+
+//TODO: Hotel Page
+
+1.Hero -> Nikita 
+
+2.Double Luxury Room -> Taras DemoUser79 
+
+3.Triple Room -> Mykhailo Friziuk
+
+4.Four-seater Room //
+
+
+
+TODO: Room Page
+
+1.Hero -> Nikita Shepil 
+
+2.Amenities (general) -> Nina Lim
+
+Book a Room Modal window Book a Table Modal window Prices per Room Modal window
+
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування

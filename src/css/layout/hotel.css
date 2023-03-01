@@ -96,12 +96,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     max-width: 365px;
   }
 }
-
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 734px;
-  }
-
   .section.hotel {
     padding: 44px 0;
   }
@@ -138,16 +133,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     flex-direction: column;
     gap: 16px;
   }
-  /* .container.mini-container {
-        max-width: 734px;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1406px;
-  }
-
   .section.hotel {
     padding: 44px 0 60px 0;
   }
@@ -183,8 +171,4 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .hotel-images-item {
     gap: 28px;
   }
-
-  /* .container.mini-container {
-        max-width: 1158px;
-    } */
 }
