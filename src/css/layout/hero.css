@@ -221,18 +221,21 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     width: 684px;
   }
 
-  .hero-buttons {
-    top: 660px;
-    left: 960px;
-  }
+    .hero-buttons{
+        top: 660px;
+        left: 960px;
+        right: 0;
+    }
 
   .hero-text-list {
     padding-top: 196px;
   }
-
-  .hero-button {
-    font-size: 18px;
-    line-height: 1.33;
-    padding: 9px 24px;
-  }
+  
+      .hero-button{
+        
+          font-size: 18px;
+  line-height: 1.33;
+  padding: 9px 24px;
+  
+      }
 }
