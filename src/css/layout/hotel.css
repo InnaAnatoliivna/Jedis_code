@@ -68,14 +68,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   color: #121212;
 }
 
-/* =================== ADAPTIVE ===================== */
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 365px;
-  }
-
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .hotel-images-item.mob {
       display: none;
     }
@@ -95,6 +88,14 @@ cubic-bezier(0.4, 0, 0.2, 1). */
       margin-bottom: 27px;
     }
   }
+
+/* =================== ADAPTIVE ===================== */
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 365px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
