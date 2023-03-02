@@ -18,6 +18,17 @@
   color: #f7f7f7;
   text-align: center;
 }
+
+.box-section{
+   
+} 
+.section-menu{
+  
+}
+.center-div{
+  display: flex;
+  justify-content: center;
+}
 .nav-list{
   display: flex;
   align-items: center;
@@ -132,10 +143,8 @@
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-  .container{
-    max-width: 365px;
-  }
-  .box{
+  
+  .box-section{
         width: 335px;
     }
     .content{
@@ -145,10 +154,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container{
-    max-width: 545px;
-  }
-  .box{
+ 
+  .box-section{
     width: 515px;
 
   }
@@ -163,12 +170,13 @@
   .head-title{
     font-size: 40px;
     line-height: 1.1;
-
 }
 .section-title {
     
     font-size: 24px;
     line-height: 1;
+    margin-top: 32px;
+
 }
 .name-meals{
     font-size: 18px;
@@ -194,9 +202,7 @@
 }
 
  @media screen and (min-width: 1440px) {
-  .container{
-    max-width: 1134px;
-  }
+ 
   .rest-menu{
     padding-top: 100px;
     padding-bottom: 100px;

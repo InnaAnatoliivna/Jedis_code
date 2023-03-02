@@ -1,11 +1,4 @@
-/* restaurant */
-/* Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. 
-Час - 250ms, 
-функція розподілу часу - 
-cubic-bezier(0.4, 0, 0.2, 1). */
-.container{
-  outline: 1px solid red;
-}
+
 .about-rest {
   padding-bottom: 64px;
   padding-top: 64px;
@@ -127,15 +120,11 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* =================== ADAPTIVE ===================== */
 
 @media screen and (min-width: 375px) {
-  /* .container .mini-container{
-    max-width: 365px;
-  } */
+
 }
 
 @media screen and (min-width: 768px) {
-  .mini-container{
-    max-width: 768px;
-  }
+  
   .about-rest{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -158,16 +147,23 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 @media screen and (min-width: 1440px) {
-  .container{
-    max-width: 1135px;
-  }
-  .arrow-about{
+   .arrow-about{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
   }
   .restaurant-button{
-    top:100%;
+  position:absolute;
+  right: 81px;
+  top:2279px;
+   
+
+}
+.btn-book-table{
+    width: 180px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 1.33;
 }
 }
