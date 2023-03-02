@@ -236,3 +236,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   
       }
 }
+
+/* -=====anination btn=====- */
+.hero-button {
+    animation: changeTransformScale 1500ms infinite linear alternate;
+}
+
+.hero-button:hover {
+  animation-play-state: paused;
+}
