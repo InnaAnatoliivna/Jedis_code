@@ -30,7 +30,6 @@
 /*__*/
 .modal {
   z-index: 102;
-  overflow-y: scroll;
   max-width: 100%;
   width: 335px;
   height: 572px;
@@ -48,6 +47,12 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media screen and (max-width: 767px) {
+  .modal {
+    overflow-y: scroll;
+}}
+
 .modal-close {
   display: block;
   margin-left: auto;
@@ -149,7 +154,7 @@
 @media screen and (min-width: 768px) {
   .modal {
     width: 628px;
-    padding: 32px;  
+    padding: 32px;
   }
   .modal-room {
     min-height: 572px;
