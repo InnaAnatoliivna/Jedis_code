@@ -143,11 +143,14 @@
   width: 235px;
   max-width: 100%;
   height: 46px;
-  left: 50px;
-  top: 442px;
+  /* left: 50px;
+  top: 442px; */
   border: 0.8px solid #f7f7f7;
   border-radius: 32px;
   margin-top: 40px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* @media screen and (min-width: 375px) {
@@ -240,5 +243,6 @@
     left: 92px;
     top: 400px;
     padding: 14px 100px;
+    margin-top: 80px;
   }
 }
