@@ -52,11 +52,12 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .double-lux-btn-link {
+  align-items: center;
   display: flex;
   justify-content: center;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #121212;
   background-color: #f7f7f7;
@@ -104,6 +105,13 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* =================== ADAPTIVE ===================== */
 
 /* @media screen and (min-width: 375px) {
+  .container {
+      max-width: 365px;
+      padding: 0 20px;
+      margin: 0 auto;
+  }
+} */
+/* @media screen and (min-width: 375px) {
 } */
 
 @media screen and (min-width: 768px) {
@@ -144,6 +152,18 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     line-height: 1.1;
   }
 
+  .double-lux-text-item:not(:last-child) {
+    width: 369px;
+    height: 168px;
+    margin-bottom: 0;
+  }
+  
+  .double-lux-text-item:not(:first-child) {
+    width: 299px;
+    height: 96px;
+    margin-bottom: 0;
+  }
+
   .double-lux-text {
     font-weight: 400;
     font-size: 18px;
@@ -152,9 +172,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
   .double-lux-text-list {
     margin-left: auto;
+    margin-bottom: 40px;
     display: flex;
     gap: 32px;
-    margin-left: auto;
+    
   }
 
   .double-lux-text-item {
@@ -169,7 +190,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   .double-lux-btn-link {
     width: 140px;
     height: 40px;
-    padding: 8px 19px;
+    padding: auto 19px;
     line-height: 1.71;
   }
 
@@ -221,6 +242,16 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     font-weight: 700;
     font-size: 40px;
     line-height: 1.1;
+  }
+
+  .double-lux-text-item:not(:last-child) {
+    width: 355px;
+    height: 192px;
+  }
+  
+  .double-lux-text-item:not(:first-child) {
+    width: 299px;
+    height: 96px;
   }
 
   .double-lux-btn-list {
