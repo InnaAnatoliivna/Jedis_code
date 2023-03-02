@@ -19,12 +19,12 @@
   text-align: center;
 }
 
-.box-section{
-   
+/* .box-section{
+  
 } 
 .section-menu{
   
-}
+} */
 .center-div{
   display: flex;
   justify-content: center;
@@ -34,6 +34,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+
 }
 
 .nav-link{
@@ -43,9 +44,15 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 
-  color: #f7f7f7;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  color: #f7f7f7;
 }
+.nav-link:is(:hover, :focus) {
+  color: var(--hover-link-dark-color);
+}
+
+
 @media screen and (min-width: 1135px) {
   .nav-list{
    display: none;
