@@ -137,7 +137,7 @@
   background: #121212;
   font-style: normal;
 }
-.button {
+.window-button {
   padding: 0;
   /* position: absolute; */
   width: 235px;
@@ -201,7 +201,7 @@
   .modal-btn-form {
     line-height: 1.71;
   }
-  .button {
+  .window-button {
     box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
@@ -234,7 +234,7 @@
     font-size: 18px;
     line-height: 1.33;
   }
-  .button {
+  .window-button {
     width: 444px;
     height: 52px;
     left: 92px;
