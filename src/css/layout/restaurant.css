@@ -143,7 +143,9 @@
     line-height: 1.71;
   }
 
-  
+.btn-book-menu {
+  margin-left:95px;
+}
 }
 
 @media screen and (min-width: 1440px) {
