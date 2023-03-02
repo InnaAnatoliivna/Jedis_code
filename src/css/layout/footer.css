@@ -72,7 +72,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /*hover nav*/
@@ -86,7 +87,9 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .footer-icon:is(:hover, :focus) {
   stroke: var(--hover-link-light-color);
 }
-
+.footer-svg-link {
+  padding: 24px 8px;
+}
 
 @media screen and (min-width: 375px) {
 
