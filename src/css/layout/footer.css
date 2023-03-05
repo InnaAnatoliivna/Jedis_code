@@ -53,35 +53,33 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   margin: 0;
 }
 
+.footer-link {
+  position: relative;
+  padding: 30px 0;
+  /* color: var(--dark-background-color);
+  stroke: var(--dark-background-color); */
+}
+/* .footer-link:is(:hover, :focus) {
+stroke: var(--hover-link-dark-color);
+} */
+
 .footer-list.none {
   display: none;
 }
 
 .footer-icon {
   fill: #f6f6f6;
-  stroke: #121212;
+  stroke: currentColor;
 
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 25px;
+  transform: scale(1);
 }
 
-/*hover nav*/
-
-.footer-link:is(:hover, :focus) {
-  color: var(--hover-link-light-color);
-  border-bottom: 1px solid  var(--hover-link-light-color);
-  border-radius: 10%;
-}
-/*hover soc icons*/
-.footer-icon:is(:hover, :focus) {
-  stroke: var(--hover-link-light-color);
-}
 .footer-svg-link {
   padding: 24px 8px;
 }
@@ -148,10 +146,59 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   }
 
   .footer-link {
-    font-size: 14px;
+    font-family: 'DMSans-Bold-700', sans-serif;
+    font-size: 16px;
     line-height: 1.28;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #121212;
   }
+}
+
+/*==========hover==========*/
+
+.footer-select-one:hover::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  background: var(--dark-background-color);
+  left: 23px;
+  bottom: 15px;
+  position: absolute;
+}
+
+.footer-select-two:hover::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  background: var(--dark-background-color);
+  left: 27px;
+  bottom: 15px;
+  position: absolute;
+}
+
+.footer-select-three:hover::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  background: var(--dark-background-color);
+  left: 50px;
+  bottom: 15px;
+  position: absolute;
+}
+
+/*hover nav*/
+.footer-link:is(:hover, :focus) {
+  color: var(--hover-link-dark-color);
+}
+
+/*hover soc icons*/
+.footer-svg-link:is(:hover, :focus) .footer-icon {
+stroke: var(--hover-link-dark-color);
 }

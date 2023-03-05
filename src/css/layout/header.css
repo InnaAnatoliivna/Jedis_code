@@ -1,21 +1,3 @@
-/* header */
-/* Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. 
-Час - 250ms, 
-функція розподілу часу - 
-cubic-bezier(0.4, 0, 0.2, 1). */
-
-/* =================== ADAPTIVE ===================== */
-
-/* @media screen and (min-width: 375px) {
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1440px) {
-} */
-
-/* ---=-styles for next pages-=--- */
 .index header {
   background-color: #fff;
 }
@@ -40,8 +22,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .selected::after {
   content: '';
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   display: block;
   border-radius: 50%;
   background: #f7f7f7;
@@ -51,8 +33,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 /* ---=-styles for next pages-=--- */
 .index-hotel .second-selected::after {
   content: '';
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   display: block;
   border-radius: 50%;
   background: var(--dark-background-color);
@@ -61,8 +43,8 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 .index-restaurant .three-selected::after {
   content: '';
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   display: block;
   border-radius: 50%;
   background: var(--dark-background-color);
@@ -70,12 +52,10 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   margin-top: 2px;
 }
 /*-------------*/
+
 .navigation .item {
   margin-right: 32px;
 }
-
-
-
 
 .navigation .item:last-child {
   padding-right: 0;
@@ -134,7 +114,7 @@ cubic-bezier(0.4, 0, 0.2, 1). */
   align-items: center;
 }
 
-.sm-link-header{
+.sm-link-header {
   padding: 24px 8px;
 }
 
@@ -187,7 +167,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 }
 
 .sm-list .item {
-  
 }
 
 .sm-list .item:last-child {
@@ -210,22 +189,24 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 .index .mobile-menu .sm-icon {
   stroke: var(--typical-light-color);
 }
+
 /*------------------------------*/
 /*hover nav*/
 .nav-head-name:is(:hover, :focus) {
   color: var(--hover-link-dark-color);
 }
 .index .nav-head-name:is(:hover, :focus) {
-  color: var(--hover-link-light-color);
+  color: var(--hover-link-dark-color);
 }
 /*hover soc icons*/
-.sm-icon:is(:hover, :focus) {
+.sm-link-header:is(:hover, :focus) .sm-icon {
   stroke: var(--hover-link-dark-color);
 }
-.index .sm-icon:is(:hover, :focus) {
-  stroke: var(--hover-link-light-color);
+.index .sm-link-header:is(:hover, :focus) > .sm-icon {
+  stroke: var(--hover-link-dark-color);
 }
-/*--------*/
+/*------------------------------*/
+
 @media screen and (min-width: 768px) {
   .flex-empty {
     display: none;
@@ -266,7 +247,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     display: none;
   }
   .sm-list .item {
-    
   }
 
   .navigation {

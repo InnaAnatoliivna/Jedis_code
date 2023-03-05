@@ -1,25 +1,6 @@
-/* hero */
-/* Для всіх ефектів ховер і фокуса (колір, фон, тінь) зроблені переходи. 
-Час - 250ms, 
-функція розподілу часу - 
-cubic-bezier(0.4, 0, 0.2, 1). */
-
-/* =================== ADAPTIVE ===================== */
-
-/* @media screen and (min-width: 375px) {
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1440px) {
-} */
-
 .hero {
   background-color: var(--dark-background-color);
 }
-
-/* .index .hero {
-    background-color: var(--light-background-color);
-  } */
 
 .hero-container {
   padding-bottom: 40px;
@@ -41,8 +22,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
     position: relative;
     background-size: 335px;
   }
-
-
 }
 
 .hero-title {
@@ -61,13 +40,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 .hero-text-list {
   padding-top: 124px;
-}
-.text-list-item:first-child {
- 
-}
-
-.text-list-item:last-child {
-  
 }
 
 .hero-text {
@@ -114,7 +86,6 @@ cubic-bezier(0.4, 0, 0.2, 1). */
 
 @media screen and (min-width: 768px) {
   .text-list-item:first-child {
-   
   }
   .hero-title {
     width: 530px;
