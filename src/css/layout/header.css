@@ -193,7 +193,7 @@
 /*------------------------------*/
 /*hover nav*/
 .nav-head-name:is(:hover, :focus) {
-  color: var(--hover-link-dark-color);
+  color: var(--hover-link-light-color);
 }
 .index .nav-head-name:is(:hover, :focus) {
   color: var(--hover-link-dark-color);
